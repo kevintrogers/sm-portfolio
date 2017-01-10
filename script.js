@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $(document).ready(function() {
     var $brandmonkey = $('#brandmonkey')
     $brandmonkey.hide();
@@ -6,9 +6,9 @@ $(document).ready(function() {
     $brandmonkey.addClass('brandmonkey');
     
     $brandmonkey.removeClass('brand-logo img').addClass('brand-final');
-=======
+
  $(function(){
->>>>>>> cbfd80ae0c45a3812489e82ef4f025aaaa10dab5
+
   
   var bounceButton = $("li.nav-li");
   
