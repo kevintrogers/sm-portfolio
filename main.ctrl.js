@@ -1,6 +1,5 @@
-  angular.module('app').controller("MainController", function(){
+angular.module('app').controller("MainController", function(){
     var vm = this;
-
     vm.title = 'Spicy Monkey Media';
     vm.pages = [
         {
@@ -31,7 +30,7 @@ vm.social_media = [
         },
         {
             title:'Linkedin',
-            link:'"https://www.linkedin.com/profile/view?id=AAIAAAmBUKoBdbOrqAwzQRxcyyy6wp_9xl90TVk&trk=nav_responsive_tab_profile'
+            link:'https://www.linkedin.com/profile/view?id=AAIAAAmBUKoBdbOrqAwzQRxcyyy6wp_9xl90TVk&trk=nav_responsive_tab_profile'
         },
         {
             title:'Github',
@@ -44,11 +43,11 @@ vm.social_media = [
         ];
 vm.projects = [
         {
-            title:'Just B Kause',
-            link:'https://justbkause.org',
-            screenshot:'/img/just-b-kause-screenshot.png',
-            description:'A website for an Orange County Charity, Just B Kause.',
-            technology:'PHP, Word Press, HTML, CSS, Javascript, JQuery, Bootstrap, Gimp, FTP, Git'
+            title:'United Utopia',
+            link:'https://unitedutopia.xyz/',
+            screenshot:'/img/unitedutopia.png',
+            description:'An E-commerce site for a unique jewelry company.',
+            technology:'PHP, Word Press, HTML, CSS, SCSS, Javascript, WooCommerce, Materialize, Gimp, Inkscape, Git'
         },
         {
             title:'Black Gold Golf',
@@ -57,6 +56,13 @@ vm.projects = [
             description:'Website for Back Gold Golf that I helped build at GreatLike Media',
             technology:'Word Press, HTML, CSS, Photoshop, Bootstrap, FTP'
             
+        },
+        {
+            title:'Just B Kause',
+            link:'https://justbkause.org',
+            screenshot:'/img/just-b-kause-screenshot.png',
+            description:'A website for an Orange County Charity, Just B Kause.',
+            technology:'PHP, Word Press, HTML, CSS, Javascript, JQuery, Bootstrap, Gimp, FTP, Git'
         },
         {
             title:'SID - LA Chapter',
@@ -76,8 +82,8 @@ vm.projects = [
             title:'Local Weather App',
             link:'http://codepen.io/MonkeyMaker/full/EVyNxJ',
             screenshot:'img/local-weather-app-screenshot.png',
-            description:'This app tells you the weather conditions in you favorite zip code.',
-            technology: 'Material Design, HTML, CSS, Javascript, JQuery, API'
+            description:'Discover the weather conditions in your favorite zip code using the Weather Underground API.',
+            technology: 'Materialize, HTML, CSS, Javascript, JQuery, API'
         },
                 {
             title:'Quote Machine',
@@ -85,16 +91,15 @@ vm.projects = [
             screenshot:'img/quotemachine.PNG',
             description:'See random quotes from famous folks.',
             technology:'HTML, CSS, Javascript, JQuery, Bootstrap'
-        },
-                        {
+        }, {
             title:'Wikipedia Viewer',
-            link:'http://codepen.io/MonkeyMaker/full/bpZvzr',
+            link:'http://codepen.io/MonkeyMaker/pen/bpZvzr',
             screenshot:'img/wikipedia.png',
-            description:'A fun project using the Wikipedia API.',
-            technology:'HTML, CSS, SCSS, Javascript, JQuery, Materialize'
+            description:'A project utilizing the Wikipedia API and Material Design.',
+            technology:'HTML, CSS, SCSS, Javascript, JQuery, Materialize, API'
         }
+
           
         ];
 
 });
-
