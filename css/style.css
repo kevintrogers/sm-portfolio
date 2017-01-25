@@ -4,13 +4,13 @@
     transform: rotate(0deg);
     font-size: 0.02em; }
   to {
-    transform: rotate(3240deg);
+    transform: rotate(6480deg);
     font-size: 1em; } }
 
 .brandmonkey {
   padding-top: 3em;
   animation-name: brandmonkey;
-  animation-duration: 4.4s; }
+  animation-duration: 0.1s; }
 
 nav {
   position: fixed;
@@ -83,7 +83,6 @@ form .btn {
 /*
  * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
  */
-/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) {
   #home {
     height: 35em;
@@ -108,7 +107,6 @@ form .btn {
     position: relative;
     font-size: 2.35em;
     padding: 0 .5em;
-    bottom: 1.6em;
     text-shadow: 2px 2px 2px red; }
   #nav-mobile {
     margin-top: 8em;
@@ -154,13 +152,30 @@ form .btn {
   #nav-mobile {
     display: inline;
     text-align: center; }
+  #home {
+    height: 40em; }
   .brand-logo {
     top: 2.2em !important; }
   .brand-logo img {
     border: 6px solid orange; }
+  #ellipse {
+    margin: 0 auto;
+    width: 30em;
+    height: 20em;
+    background-color: #212121;
+    -moz-border-radius: 0 0 40% 40%;
+    -webkit-border-radius: 0 0 40% 40%;
+    border-radius: 0 0 40% 40%; }
+  .span-left {
+    text-align: right;
+    top: -1.5em;
+    right: 2em; }
+  .span-right {
+    top: -2.85em;
+    left: 4.5em; }
   .social-media-links {
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 20em;
     width: 50%;
     display: block;
     right: 25%;
@@ -169,6 +184,7 @@ form .btn {
     display: block;
     text-align: center; }
   .brand-logo img {
+    margin-top: 1.15em;
     height: 13.2em;
     width: 13.2em;
     border-radius: 50%; }
@@ -194,6 +210,8 @@ form .btn {
     width: 14.5em !important; }
   .about_text {
     margin: 0 2em; }
+  #portfolio-list {
+    margin-left: 8.33333%; }
   #portfolio-list li {
     margin: 0; }
   .center h2 {

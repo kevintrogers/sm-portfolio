@@ -40,8 +40,16 @@
   </nav>
       <section id='home'>
 
-        <div class='adjustable row center brandmonkey'>
-         <a href="#" class="nav_logo brand-logo center"><span><span style='width:1em'></span>Spicy</span><img src="spicymonkey_logo.svg" onerror="this.src='spicymonkey_logo.png'" alt="Spicy Monkey Media Logo"><span>Monkey</span></a>
+    <div class='row center'>
+      <div id='ellipse'>
+        <div class='adjustable brandmonkey'>
+         <a href="#" class="nav_logo brand-logo center">
+           <span class='span-left'>Spicy</span>
+           <img class='center' src="spicymonkey_logo.svg" onerror="this.src='spicymonkey_logo.png'" alt="Spicy Monkey Media Logo">
+           <span class='span-right'>Monkey</span></a>
+         </div>
+       </div>
+     </div>
          <ul id='dropdown-menu' class='dropdown-content hide-on-med-and-up'>
     <li ng-repeat="page in main.pages">
       <a class='' href='{{page.link}}'>
@@ -51,7 +59,7 @@
 
             
      </ul>
-       </div>
+       
        <div class='row'>
       <ul class="col social-media-links center s12 l10 offset-l1">
 

@@ -7,7 +7,7 @@ $quaternary-color: #2C6A79;
 $quinary-color: #fff;
 $shadow-color: 2px 2px 2px red;
 $spin: 324;
-$spin-time: 4.4s;
+$spin-time: .1s;
 $spin-size: .2em;
 
 $title-font: 'Yellowtail', cursive; 
@@ -26,7 +26,7 @@ $sans-font: 'Montserrat', sans-serif;
 
 }
 to {
-    transform: rotate($spin * 10deg);
+    transform: rotate($spin * 20deg);
     font-size: 10/2 * $spin-size;
  
 }
@@ -124,214 +124,148 @@ form .btn {
  * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
  */
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-{
-#home{
+@media only screen and (min-device-width: 320px) {
+  #home {
     height: 35em;
-background: #d8e0de;
-background: -moz-linear-gradient(top,  #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
-background: -webkit-linear-gradient(top,  #d8e0de 0%,#aebfbc 9%,#99afab 18%,#8ea6a2 32%,#829d98 39%,#4e5c5a 66%,#0e0e0e 91%);
-background: linear-gradient(to bottom,  #d8e0de 0%,#aebfbc 9%,#99afab 18%,#8ea6a2 32%,#829d98 39%,#4e5c5a 66%,#0e0e0e 91%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 );
+    background: #d8e0de;
+    background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
+    background: -webkit-linear-gradient(top, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
+    background: linear-gradient(to bottom, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); }
+  .adjustable {
+    top: -4em; }
+  .brand-logo {
+    font-family: "Yellowtail", cursive;
+    color: orange;
+    position: relative; }
+  .brand-logo img {
 
-    
-}
-.adjustable{
-      top: -4em;  
-}
-.brand-logo{
-        font-family: $title-font;
-    color: $primary-color;
-    position: relative; 
-}
-.brand-logo img{
-    height: 8em; 
-    width: 8em; 
-    border-radius:50%;
-    border: 4px solid $primary-color;
-    background: #fff;
-}
-
-.brand-logo span{
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    border: 4px solid orange;
+    background: #fff; }
+  .brand-logo span {
     position: relative;
     font-size: 2.35em;
     padding: 0 .5em;
-    bottom: 1.6em;
-    text-shadow: $shadow-color;
-    
-}
-
-#nav-mobile {
-    margin-top:8em;
-
-    display: inline;
-}
-#nav-mobile li{
-    display:inline-block;
-    float:none !important;
-    
-}
-.social-media-links{
+    text-shadow: 2px 2px 2px red; }
+  #nav-mobile {
+    margin-top: 8em;
+    display: inline; }
+  #nav-mobile li {
+    display: inline-block;
+    float: none !important; }
+  .social-media-links {
     position: absolute;
     top: 12em;
     width: 33.33333333%;
-    display:block;
+    display: block;
     right: 33.3333333%;
-    left: 33.3333333%;
-    
-    
-}
-.social-media-links li{
-height: 3em;
-padding-top: .35em;
-margin: 1em auto;
-}
-.social-media-links li a{
-    color: $quinary-color;
-    border: 2px solid $quinary-color;
+    left: 33.3333333%; }
+  .social-media-links li {
+    height: 3em;
+    padding-top: .35em;
+    margin: 1em auto; }
+  .social-media-links li a {
+    color: #fff;
+    border: 2px solid #fff;
     border-radius: 5px;
-    padding: .5em;
-    
-}
-.center {
-    float:none !important;
-}
-
-#portfolio-list{
-    display:inline;
+    padding: .5em; }
+  .center {
+    float: none !important; }
+  #portfolio-list {
+    display: inline;
     list-style: none;
-    float:none !important;
-}
-#portfolio-list li { 
-    display: inline-block; 
-    margin: .1em 16.66666%;
-}
-
-li .card {
-    width: 85%;
-
-}
-.page-footer {
-    font-size: 1.25em;
-}
-}
+    float: none !important; }
+  #portfolio-list li {
+    display: inline-block;
+    margin: .1em 16.66666%; }
+  li .card {
+    width: 85%; }
+  .page-footer {
+    font-size: 1.25em; } }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
-
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
- {
-/* Styles */
-#nav-mobile {
-display: inline;
-text-align: center
-}
-.brand-logo {
-    top: 2.2em !important;
-}
-.brand-logo img {
-    border: 6px solid $primary-color;
-}
-.social-media-links {
-    position: relative;
-    top: 0;
+@media only screen and (min-device-width: 768px) {
+  /* Styles */
+  #nav-mobile {
+    display: inline;
+    text-align: center; }
+  #home {
+    height: 40em; }
+  .brand-logo {
+    top: 2.2em !important; }
+  .brand-logo img {
+    border: 6px solid orange; }
+    #ellipse{
+        margin: 0 auto;
+        width: 30em;
+        height: 20em;
+          background-color: #212121;
+              -moz-border-radius: 0 0 40% 40%;
+    -webkit-border-radius: 0 0 40% 40%;
+    border-radius: 0 0 40% 40%;
+    }
+  .span-left {
+    text-align: right;
+    top: -1.5em;
+    right: 2em;
+    }
+  .span-right{
+    top: -2.85em;
+    left: 4.5em;
+    
+    }
+  .social-media-links {
+    position: absolute;
+    top: 20em;
     width: 50%;
     display: block;
     right: 25%;
-    left: 25%;
-}
-.social-media-links li {   
+    left: 25%; }
+  .social-media-links li {
     display: block;
-    text-align: center;
-}
-.brand-logo img{
-    height: 13.2em; 
-    width: 13.2em; 
-    border-radius:50%;
-}
-
-.brand-logo span{
-    font-size: 3.6em;
-
-}
-
-}
+    text-align: center; }
+  .brand-logo img {
+    margin-top: 1.15em;
+    height: 13.2em;
+    width: 13.2em;
+    border-radius: 50%; }
+  .brand-logo span {
+    font-size: 3.6em; }
+  }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
-
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 960px) {
-/* Styles */
-
-.social-media-links {
+@media only screen and (min-width: 960px) {
+  /* Styles */
+  .social-media-links {
     display: inline-flex;
     top: 24.5em;
     position: absolute;
-    left: 16.6667%;
-
-}
-.social-media-links li {
+    left: 16.6667%; }
+  .social-media-links li {
     display: inline-block;
     margin: 0 3em 2em;
     width: 13em;
-    text-align: center;
-}
-.social-media-links li a {
-    width: 14.5em !important;
-}
-.about_text {
-    margin: 0 2em;
-}
-#portfolio-list li {
-    margin: 0;
-}
-.center h2 {
-
+    text-align: center; }
+  .social-media-links li a {
+    width: 14.5em !important; }
+  .about_text {
+    margin: 0 2em; }
+  #portfolio-list {
+    margin-left: 8.33333%; }
+  #portfolio-list li {
+    margin: 0; }
+  .center h2 {
     color: #000;
     font-weight: 900;
     padding: 0px 10px;
-    text-transform: uppercase;
-
-}
-}
+    text-transform: uppercase; } }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
