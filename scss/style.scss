@@ -43,6 +43,7 @@ nav{
     z-index: 4;
     color: $primary-color;
     font-family: $sans-font;
+    box-shadow: none;
     
 }
 #dropdown-menu{
@@ -182,7 +183,9 @@ form .btn {
     display: inline-block;
     margin: .1em 16.66666%; }
   li .card {
-    width: 85%; }
+    width: 85%; 
+    border-radius: 10px;
+  }
   .page-footer {
     font-size: 1.25em; } }
 
