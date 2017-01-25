@@ -7,7 +7,7 @@ $quaternary-color: #2C6A79;
 $quinary-color: #fff;
 $shadow-color: 2px 2px 2px red;
 $spin: 324;
-$spin-time: .1s;
+$spin-time: 4.4s;
 $spin-size: .2em;
 
 $title-font: 'Yellowtail', cursive; 
@@ -146,7 +146,7 @@ form .btn {
     border: 4px solid orange;
     background: #fff; }
   .brand-logo span {
-    position: relative;
+    position: absolute;
     font-size: 2.35em;
     padding: 0 .5em;
     text-shadow: 2px 2px 2px red; }
@@ -202,7 +202,7 @@ form .btn {
     border: 6px solid orange; }
     #ellipse{
         margin: 0 auto;
-        width: 30em;
+        width: 35em;
         height: 20em;
           background-color: #212121;
               -moz-border-radius: 0 0 40% 40%;
@@ -210,13 +210,10 @@ form .btn {
     border-radius: 0 0 40% 40%;
     }
   .span-left {
-    text-align: right;
-    top: -1.5em;
-    right: 2em;
+    right: 3.5em;
     }
   .span-right{
-    top: -2.85em;
-    left: 4.5em;
+    left: 3.5em;
     
     }
   .social-media-links {
@@ -235,7 +232,9 @@ form .btn {
     width: 13.2em;
     border-radius: 50%; }
   .brand-logo span {
-    font-size: 3.6em; }
+    font-size: 3.6em; 
+    bottom: 1.5em;
+  }
   }
 
 /* iPads (landscape) ----------- */
