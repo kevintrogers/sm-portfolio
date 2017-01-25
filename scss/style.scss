@@ -197,9 +197,16 @@ form .btn {
   #home {
     height: 40em; }
   .brand-logo {
-    top: 2.2em !important; }
+    top: 2.2em !important; 
+    display:inline;
+  }
   .brand-logo img {
+    display:inline-block;
     border: 6px solid orange; }
+    .brand-logo span {
+      display:inline-block;
+      margin: 0 25%;
+    }
     #ellipse{
         margin: 0 auto;
         width: 30em;
@@ -210,14 +217,10 @@ form .btn {
     border-radius: 0 0 40% 40%;
     }
   .span-left {
-    text-align: right;
-    top: -1.5em;
-    right: 2em;
+
     }
   .span-right{
-    top: -2.85em;
-    left: 4.5em;
-    
+
     }
   .social-media-links {
     position: absolute;
