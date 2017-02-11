@@ -5,22 +5,18 @@
     vm.pages = [
         {
             title:'Home',
-            abbr:'H',
             link:'#home'
         },
         {
             title:'About',
-            abbr:'A',
-            link:'#about',
+            link:'#about'
         },
         {
             title:'Portfolio',
-            abbr:'P',
             link:'#portfolio'
         },
         {
             title:'Contact',
-            abbr:'C',
             link:'#contact'
         }
         ];
