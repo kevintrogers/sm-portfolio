@@ -91,6 +91,10 @@ nav{
     border: 1px solid orange;
 
 }
+
+#contact img {
+  height: 250px;
+}
 article p {
     
     font-style: italic;
@@ -107,6 +111,13 @@ form .row {
 form .btn {
     margin-bottom:2em;
     border-radius: 5px;
+}
+.input-field .prefix ~ label {
+  margin-left: 3.25rem;
+}
+#textarea1 {
+  border: 1px solid #000;
+  border-radius: 12px;
 }
 .page-footer {
     background:none !important;
@@ -138,7 +149,9 @@ form .btn {
   .brand-logo {
     font-family: "Yellowtail", cursive;
     color: orange;
-    position: relative; }
+    position: relative; 
+    
+  }
   .brand-logo img {
 
     height: 8em;

@@ -92,6 +92,13 @@ vm.projects = [
             screenshot:'img/wikipedia.png',
             description:'A fun project using the Wikipedia API.',
             technology:'HTML, CSS, SCSS, Javascript, JQuery, Materialize'
+        },
+                        {
+            title:'Team First Basketball',
+            link:'http://teamfirstbasketball.com',
+            screenshot:'img/wikipedia.png',
+            description:'Website for a basketball coaching company.',
+            technology:'HTML, CSS, SCSS, Javascript, Angular JS, JQuery, Materialize'
         }
           
         ];

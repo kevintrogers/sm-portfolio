@@ -53,6 +53,9 @@ nav {
   margin-top: 2em;
   border: 1px solid orange; }
 
+#contact img {
+  height: 250px; }
+
 article p {
   font-style: italic;
   font-weight: 400; }
@@ -68,6 +71,13 @@ form .row {
 form .btn {
   margin-bottom: 2em;
   border-radius: 5px; }
+
+.input-field .prefix ~ label {
+  margin-left: 3.25rem; }
+
+#textarea1 {
+  border: 1px solid #000;
+  border-radius: 12px; }
 
 .page-footer {
   background: none !important; }
