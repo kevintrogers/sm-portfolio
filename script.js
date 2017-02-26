@@ -7,16 +7,6 @@ $(document).ready(function() {
     
     $brandmonkey.removeClass('brand-logo img').addClass('brand-final');
 
- $(function(){
-
-  
-  var bounceButton = $("li.nav-li");
-  
-    bounceButton.click(function(){
-       $(this).toggleClass('bounce');
-       
-
-    });
 
     
   });
