@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Michroma|Pacifico");
 @keyframes lookDown {
   from {
     top: 25%; }
@@ -224,3 +225,211 @@ body {
   top: 95%;
   left: 37.5%;
   z-index: 2; }
+
+@keyframes open {
+  from {
+    width: 60%;
+    background: lightblue;
+    height: 44%;
+    top: 30.6%;
+    left: 32.5%;
+    -ms-transform: skew(-50deg, 5deg);
+    /* IE 9 */
+    -webkit-transform: skew(-50deg, 5deg);
+    /* Safari */
+    transform: skew(-50deg, 4deg); }
+  to {
+    -webkit-transform: rotateX(180deg) skew(-30deg, 176deg);
+    transform: rotateX(180deg) skew(-30deg, 176deg);
+    top: -69%;
+    left: 30.2%;
+    width: 60%;
+    height: 100%; } }
+
+.box {
+  position: relative;
+  margin: auto;
+  margin-top: 4em;
+  width: 800px;
+  height: 600px;
+  background: #fffde7; }
+
+.box-outside {
+  position: absolute;
+  display: block;
+  width: 39.5%;
+  height: 10%;
+  right: -12%;
+  top: 55.6%;
+  transform: rotate(140deg);
+  background: #6d4c41;
+  z-index: 999;
+  -ms-transform: skew(-4deg, -40deg);
+  -webkit-transform: skew(-4deg, -40deg);
+  transform: skew(-4deg, -40deg); }
+
+.box-inside {
+  position: absolute;
+  display: block;
+  width: 39%;
+  height: 10%;
+  left: 12.5%;
+  top: 50%;
+  transform: rotate(140deg);
+  background: #6d4c41;
+  z-index: 3;
+  -ms-transform: skew(-5deg, -40deg);
+  /* IE 9 */
+  -webkit-transform: skew(-5deg, -40deg);
+  /* Safari */
+  transform: skew(-5deg, -40deg);
+  /* Standard syntax */ }
+
+.box-back {
+  position: absolute;
+  display: block;
+  width: 60.1%;
+  height: 10%;
+  left: 51.4%;
+  top: 31%;
+  background: #a1887f;
+  transform: rotate(4.1deg);
+  z-index: 1; }
+
+.box-front {
+  position: absolute;
+  display: block;
+  width: 60%;
+  height: 10%;
+  left: 12.5%;
+  top: 75%;
+  background: #a1887f;
+  transform: rotate(4deg);
+  z-index: 4; }
+
+.floatup {
+  display: block;
+  z-index: 8; }
+
+.open {
+  animation: open .4s forwards; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+.pizza-title {
+  position: absolute;
+  font-family: 'Michroma', sans-serif;
+  top: 30%;
+  left: 22.5%;
+  color: #1b5e20;
+  font-weight: 700; }
+
+.big-action {
+  position: absolute;
+  top: 35%;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 20%;
+  color: #d50000; }
+
+.small-action {
+  position: absolute;
+  top: 45%;
+  font-size: .85em;
+  text-align: center;
+  margin-left: 37.5%;
+  color: #1b5e20; }
+
+.box-bottom {
+  position: absolute;
+  width: 60.5%;
+  background: lightblue;
+  height: 44%;
+  top: 31%;
+  left: 32%;
+  z-index: 0;
+  -ms-transform: skew(-50deg, 4deg);
+  /* IE 9 */
+  -webkit-transform: skew(-50deg, 4deg);
+  /* Safari */
+  transform: skew(-50deg, 4deg);
+  /* Standard syntax */ }
+
+.box-top {
+  position: absolute;
+  width: 60.5%;
+  background: lightblue;
+  height: 44%;
+  top: 31%;
+  left: 32%;
+  z-index: 7;
+  -ms-transform: skew(-50deg, 5deg);
+  /* IE 9 */
+  -webkit-transform: skew(-50deg, 5deg);
+  /* Safari */
+  transform: skew(-50deg, 4deg);
+  /* Standard syntax */ }
+
+.balloon {
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  z-index: 3;
+  background: #ea80fc;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  top: 22%;
+  left: 22%;
+  color: #ad1457;
+  font-size: 2em;
+  -ms-transform: skew(50deg, -4deg);
+  /* IE 9 */
+  -webkit-transform: skew(50deg, -4deg);
+  /* Safari */
+  transform: skew(50deg, -4deg);
+  /* Standard syntax */ }
+
+.balloon-knot {
+  position: absolute;
+  z-index: 2;
+  background: #ad1457;
+  width: 5%;
+  height: 5%;
+  top: 97%;
+  left: 50%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+
+.span-top {
+  position: absolute;
+  top: 24%;
+  left: 24%;
+  text-align: center; }
+
+.span-bottom {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  text-align: center; }
+
+.box-form {
+  display: none;
+  position: relative;
+  top: -2.5%;
+  left: -2.5%;
+  width: 110%;
+  height: 110%;
+  background: #e8f5e9;
+  padding: 15px;
+  border-radius: 20px;
+  z-index: 999; }
+
+.input-field .prefix ~ label {
+  margin-top: -2em; }
+
+textarea.materialize-textarea {
+  margin: 20px 0 0 0 !important; }
