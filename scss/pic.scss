@@ -288,7 +288,7 @@ $form-color: #e8f5e9;
     left: 41%;
     width: 60%;
     height: 50%;
-}
+
     }
 }
 
@@ -477,11 +477,14 @@ $form-color: #e8f5e9;
     top: -2.5%;
     left: -2.5%;
     width: 110%;
-    height: 110%;
+    height: 80%;
     background: $form-color;
     padding: 15px;
     border-radius: 20px;
     z-index:999;
+}
+.box-form .btn-flat{
+    margin-top: 2em;
 }
 .input-field .prefix ~ label {
     margin-top:-2em;
