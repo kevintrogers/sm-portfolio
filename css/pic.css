@@ -10,8 +10,8 @@ body {
 
 .box {
   position: relative;
-  height: 600px;
-  width: 600px;
+  height: 40%;
+  width: 40%;
   margin: auto;
   display: block; }
 
@@ -144,8 +144,8 @@ body {
   position: absolute;
   background: transparent;
   border: 10px solid #202020;
-  height: 14.5%;
-  width: 17.5%;
+  height: 17.5%;
+  width: 20.5%;
   top: 33%;
   left: 25.5%;
   border-radius: 0 0 50% 50%; }
@@ -154,8 +154,8 @@ body {
   position: absolute;
   background: transparent;
   border: 10px solid #202020;
-  height: 14.5%;
-  width: 17.5%;
+  height: 17.5%;
+  width: 20.5%;
   top: 33%;
   right: 25.5%;
   border-radius: 0 0 50% 50%; }
@@ -165,7 +165,7 @@ body {
   background: #202020;
   top: 33%;
   left: 41.5%;
-  height: 2%;
+  height: 1.8%;
   width: 15%; }
 
 .connector-bottom {
@@ -246,9 +246,10 @@ body {
     height: 50%; } }
 
 .box {
+  display: block;
   position: relative;
+  margin-bottom: 2em;
   margin: auto;
-  margin-top: -2em;
   width: 800px;
   height: 600px;
   background: #fffde7; }

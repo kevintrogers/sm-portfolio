@@ -42,16 +42,7 @@ nav {
   border-radius: 10px 10px 0 0; }
 
 #contact_image {
-  height: 20em; }
-
-#image_frame {
-  height: 100%; }
-
-#image_frame img {
-  border-radius: 50%;
-  size: 10em 10em;
-  margin-top: 2em;
-  border: 1px solid orange; }
+  height: auto; }
 
 article p {
   font-style: italic;
