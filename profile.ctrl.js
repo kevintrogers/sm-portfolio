@@ -32,10 +32,6 @@ vm.social_media = [
         {
             title:'Github',
             link:'https://github.com/kevintrogers'
-        },
-        {
-            title:'FreeCodeCamp',
-            link:'http://freecodecamp.com/kevintrogers'
         }
         ];
 vm.projects = [
