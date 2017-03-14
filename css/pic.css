@@ -421,30 +421,16 @@ textarea.materialize-textarea {
   .box-form {
     display: none;
     position: relative;
-    top: -2.5%;
+    top: -22.5%;
     left: -2.5%;
     width: 110%;
-    height: 80%;
+    height: auto;
     background: #e8f5e9;
     padding: 15px;
     border-radius: 20px;
     z-index: 999; } }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */
-  .box-form {
-    display: none;
-    position: relative;
-    top: -2.5%;
-    left: -2.5%;
-    width: 110%;
-    height: 160%;
-    background: #e8f5e9;
-    padding: 15px;
-    border-radius: 20px;
-    z-index: 999; } }
-
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
@@ -475,7 +461,9 @@ textarea.materialize-textarea {
   .pizza-title {
     font-size: 1em;
     top: 30%;
-    left: 32.5%; } }
+    left: 32.5%; }
+  .box-form {
+    top: -2.5%; } }
 
 /* iPads (landscape) ----------- */
 /* iPads (portrait) ----------- */

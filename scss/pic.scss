@@ -494,10 +494,10 @@ and (min-width : 321px) {
 .box-form {
     display: none;
     position: relative;
-    top: -2.5%;
+    top: -22.5%;
     left: -2.5%;
     width: 110%;
-    height: 80%;
+    height: auto;
     background: $form-color;
     padding: 15px;
     border-radius: 20px;
@@ -509,18 +509,7 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
-.box-form {
-    display: none;
-    position: relative;
-    top: -2.5%;
-    left: -2.5%;
-    width: 110%;
-    height: 160%;
-    background: $form-color;
-    padding: 15px;
-    border-radius: 20px;
-    z-index:999;
-}
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -573,6 +562,9 @@ and (min-device-width : 768px) {
    left: 32.5%;
 
 
+}
+.box-form {
+    top: -2.5%;
 }
     
 }
