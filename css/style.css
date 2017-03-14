@@ -87,8 +87,10 @@ form .btn {
     background: -webkit-linear-gradient(top, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
     background: linear-gradient(to bottom, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); }
-  .adjustable {
-    top: -4em; }
+  .adujustable {
+    margin-top: 2.8em; }
+  .brandmonkey {
+    margin-top: 1.15em; }
   .brand-logo {
     font-family: "Yellowtail", cursive;
     color: orange;
@@ -102,7 +104,7 @@ form .btn {
   .brand-logo span {
     position: absolute;
     font-size: 2.35em;
-    padding: 0 .5em;
+    padding: .75em .5em .5em;
     text-shadow: 2px 2px 2px red; }
   .span-left {
     right: 100%; }
@@ -152,8 +154,12 @@ form .btn {
     text-align: center; }
   #home {
     height: 40em; }
+  .brandmonkey {
+    margin-top: 0; }
   .brand-logo {
     top: 2.2em !important; }
+  .brand-logo span {
+    margin: 0 .5em; }
   .brand-logo img {
     border: 6px solid orange; }
   #ellipse {
