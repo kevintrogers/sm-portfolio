@@ -190,15 +190,7 @@ top: 40%;
        width: 15%;
        
    }
-      .connector-bottom {
-       position:absolute;
-       background: $glasses-color;
-       top: 39%;
-       left:48.5%;
-       height: 2%;
-       width: 4%;
-       
-   }
+
    .nose {
        position: absolute;
        top:42.5%;
@@ -382,30 +374,7 @@ $form-color: #e8f5e9;
    font-weight: 700;
 
 }
-.big-action {
-    position:absolute;
-    top: 35%;
-    font-size:1.5em;
-    text-align: center;
-    margin-left:20%;
-    color: $pizza-logo-color;
-    //   -ms-transform: skew(50deg, -5deg); /* IE 9 */
-    // -webkit-transform: skew(50deg, -5deg); /* Safari */
-    // transform: skew(50deg, -5deg); /* Standard syntax */
-    
-}
-.small-action {
-    position:absolute;
-    top: 45%;
-    font-size:.85em;
-    text-align: center;
-    margin-left:37.5%;
-    color: $pizza-font-color;
-    //       -ms-transform: skew(50deg, -5deg); /* IE 9 */
-    // -webkit-transform: skew(50deg, -5deg); /* Safari */
-    // transform: skew(50deg, -5deg); /* Standard syntax */
-    
-}
+
 .box-bottom {
     position: absolute;
     width: 60.5%;
@@ -444,18 +413,7 @@ $form-color: #e8f5e9;
     text-align:center;
     
 }
-.box-form {
-    display: none;
-    position: relative;
-    top: -2.5%;
-    left: -2.5%;
-    width: 110%;
-    height: 80%;
-    background: $form-color;
-    padding: 15px;
-    border-radius: 20px;
-    z-index:999;
-}
+
 .box-form .btn-flat{
     margin-top: 2em;
 }
@@ -471,7 +429,18 @@ textarea.materialize-textarea {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
-
+.box-form {
+    display: none;
+    position: relative;
+    top: -2.5%;
+    left: -2.5%;
+    width: 110%;
+    height: 160%;
+    background: $form-color;
+    padding: 15px;
+    border-radius: 20px;
+    z-index:999;
+}
 .box {
     width: 280px;
     height: 210px;
@@ -482,18 +451,76 @@ and (max-device-width : 480px) {
     height: 150px;
     
 }
+.connector {
+    
+}
+.big-action {
+    position:absolute;
+    top: 15%;
+    font-size:.9em;
+    text-align: center;    
+    margin-left:10%;
+    color: $pizza-logo-color;
+
+    
+}
+.small-action {
+    position:absolute;
+    top: 55%;
+    font-size:.75em;
+    text-align: center;
+    margin-left:30%;
+    color: $pizza-font-color;
+
+    
+}
+
+.pizza-title {
+    position: absolute;
+    font-family: 'Michroma', sans-serif;
+   top: 28%;
+      left: 20%;
+    font-size: .65em;;
+   color: $pizza-font-color;
+   font-weight: 700;
+
+}
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
 /* Styles */
+.box-form {
+    display: none;
+    position: relative;
+    top: -2.5%;
+    left: -2.5%;
+    width: 110%;
+    height: 80%;
+    background: $form-color;
+    padding: 15px;
+    border-radius: 20px;
+    z-index:999;
+}
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
+.box-form {
+    display: none;
+    position: relative;
+    top: -2.5%;
+    left: -2.5%;
+    width: 110%;
+    height: 160%;
+    background: $form-color;
+    padding: 15px;
+    border-radius: 20px;
+    z-index:999;
+}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -507,6 +534,26 @@ and (max-device-width : 1024px) {
 }
 @media only screen 
 and (min-device-width : 768px) {
+    .big-action {
+    position:absolute;
+    top: 35%;
+    font-size:1.5em;
+    text-align: center;
+    margin-left:20%;
+    color: $pizza-logo-color;
+
+    
+}
+.small-action {
+    position:absolute;
+    top: 45%;
+    font-size:.85em;
+    text-align: center;
+    margin-left:37.5%;
+    color: $pizza-font-color;
+
+    
+}
        .lens-left {
 
        border: 10px solid $glasses-color;
@@ -519,6 +566,14 @@ and (min-device-width : 768px) {
        height: 17.5%;
 
    }
+   .pizza-title {
+
+    font-size: 1em;
+   top: 30%;
+   left: 32.5%;
+
+
+}
     
 }
 
