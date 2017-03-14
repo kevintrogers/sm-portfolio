@@ -411,8 +411,6 @@ textarea.materialize-textarea {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
-  .span-left {
-    left: -90%; }
   .box {
     width: 280px;
     height: 210px; }
@@ -426,7 +424,7 @@ textarea.materialize-textarea {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
   .span-left {
-    left: autp; } }
+    right: auto; } }
 
 /* iPads (landscape) ----------- */
 /* iPads (portrait) ----------- */
