@@ -143,8 +143,8 @@ body {
 .lens-left {
   position: absolute;
   background: transparent;
-  border: 10px solid #202020;
-  height: 17.5%;
+  border: 5px solid #202020;
+  height: 19.5%;
   width: 20.5%;
   top: 33%;
   left: 25.5%;
@@ -153,8 +153,8 @@ body {
 .lens-right {
   position: absolute;
   background: transparent;
-  border: 10px solid #202020;
-  height: 17.5%;
+  border: 5px solid #202020;
+  height: 19.5%;
   width: 20.5%;
   top: 33%;
   right: 25.5%;
@@ -425,6 +425,14 @@ textarea.materialize-textarea {
   /* Styles */
   .span-left {
     right: auto; } }
+
+@media only screen and (min-device-width: 768px) {
+  .lens-left {
+    border: 10px solid #202020;
+    height: 17.5%; }
+  .lens-right {
+    border: 10px solid #202020;
+    height: 17.5%; } }
 
 /* iPads (landscape) ----------- */
 /* iPads (portrait) ----------- */
