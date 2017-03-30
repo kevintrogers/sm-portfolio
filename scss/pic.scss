@@ -428,7 +428,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* Styles */
 .box-form {
-    display: none;
+    display: block;
     position: relative;
     top: -2.5%;
     left: -2.5%;
@@ -490,7 +490,7 @@ and (max-device-width : 480px) {
 and (min-width : 321px) {
 /* Styles */
 .box-form {
-    display: none;
+    display: block;
     position: relative;
     top: -22.5%;
     left: -2.5%;

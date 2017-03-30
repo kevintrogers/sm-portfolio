@@ -55,18 +55,18 @@ vm.projects = [
             
         },
         {
-            title:'SID - LA Chapter',
-            link:'http://sidla-spicymonkey.rhcloud.com/',
-            screenshot:'img/la-sid-screenshot.png',
-            description:'A re-creation of Society for Information Display\'s Los Angeles Chapter\'s site',
-            technology:'Word Press, HTML, CSS, Bootstrap, FTP, Git'
+            title:'Team First Basketball',
+            link:'http://teamfirstbasketball.com/',
+            screenshot:'img/team-first-screenshot.png',
+            description:'Menu using CSS Animations simulates a bounce pass.',
+            technology:'AngularJS, HTML, CSS, Javascript, JQuery, Bootstrap, FTP, Git'
         },
         {
             title:'Pomodoro Clock',
             link:'http://codepen.io/MonkeyMaker/full/bVVQZg',
             screenshot:'img/pomodoro-screenshot.PNG',
             description:'A clock that helps utilize the pomodoro method, featuring a plaid theme and knockout text.',
-            technology:'HTML, Javscript, JQuery, Bootstrap, CSS'
+            technology:'HTML, Javascript, JQuery, Bootstrap, CSS'
         },
                 {
             title:'Local Weather App',

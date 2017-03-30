@@ -51,11 +51,11 @@ vm.projects = [
             
         },
         {
-            title:'SID - LA Chapter',
-            link:'http://sidla-spicymonkey.rhcloud.com/',
-            screenshot:'img/la-sid-screenshot.png',
-            description:'A re-creation of Society for Information Display\'s Los Angeles Chapter\'s site',
-            technology:'Word Press, HTML, CSS, Bootstrap, FTP, Git'
+            title:'Team First Basketball',
+            link:'http://teamfirstbasketball.com/',
+            screenshot:'img/team-first-screenshot.PNG',
+            description:'Menu using CSS Animations that simulates a bounce pass.',
+            technology:'AngularJS, HTML, CSS, Javascript, JQuery, Bootstrap, FTP, Git'
         },
         {
             title:'Pomodoro Clock',
