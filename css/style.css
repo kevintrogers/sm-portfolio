@@ -57,11 +57,15 @@ form {
   padding-bottom: 1em;
   border-radius: 20px; }
 
+textarea#textarea1 {
+  border: 1px solid #808080;
+  border-radius: 20px; }
+
 form .row {
   padding-bottom: 0 1em 1em 1em; }
 
 form .btn {
-  margin-bottom: 2em;
+  margin-bottom: 2.2em;
   border-radius: 5px; }
 
 .page-footer {
