@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css?family=Yellowtail|Montserrat|Oswald:400|700);
+
+$primary-color: orange;
+$secondary-color: #505050;
+$tertiary-color: #808080;
+$quaternary-color: #2C6A79;
+$quinary-color: #fff;
+$shadow-color: 2px 2px 2px red;
+$spin: 324;
+$spin-time: 4.4s;
+$spin-size: .2em;
+
+$title-font: 'Yellowtail', cursive; 
+$serif-font: 'Lato', sans-serif;
+$sans-font: 'Montserrat', sans-serif;
+
+html, body {
+  width:100%;  
+  overflow-x: hidden;
+}
+
+@keyframes brandmonkey {
+ from {
+	transform: rotate($spin * 0deg);
+
+	font-size: .1 * $spin-size;
+
+
+
+}
+to {
+    transform: rotate($spin * 20deg);
+    font-size: 10/2 * $spin-size;
+ 
+}
+     
+} 
+
+.brandmonkey {
+    padding-top: 3em;
+          animation-name: brandmonkey;
+  animation-duration: $spin-time;
+  
+}
+nav{
+    position: fixed;
+    z-index: 4;
+    color: $primary-color;
+    font-family: $sans-font;
+    box-shadow: none;
+    
+}
+#dropdown-menu{
+    left: 7.5% !important;
+    width: 85% !important;
+    overflow:hidden;
+}
+#dropdown-menu li a {
+    text-align:center;
+    margin-top:.2em !important;
+  margin-bottom: .1em !important;
+    
+}
+#dropdown-menu li {
+  text-align:center;
+  margin-top:.2em !important;
+  margin-bottom: .1em !important;
+}
+
+.social-media-links{
+    font-family: $sans-font;
+    
+}
+.card .card-reveal, .card {
+}
+.card-image {
+    height: 12em;
+    border-radius: 10px 10px 0 0;
+}
+#contact_image {
+    height: auto;
+
+}
+
+article p {
+    
+    font-style: italic;
+    font-weight: 400;
+}
+form {
+    margin-bottom:  1em;
+    padding-bottom: 1em;
+    border-radius: 20px;
+}
+textarea#textarea1 {
+    border: 1px solid #808080;
+    border-radius: 20px;
+}
+form .row {
+ padding-bottom: 0 1em 1em 1em;
+}
+form .btn {
+    margin-bottom:2.2em;
+    border-radius: 5px;
+}
+.page-footer {
+    background:none !important;
+}
+.footer_item_header {
+    color: $primary-color;
+    font-weight: 500;
+    letter-spacing: .015em;
+}
+.footer-copyright{
+    color: $primary-color;
+    font-size: 1rem;
+}
+
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+@media only screen and (min-device-width: 320px) {
+  
+  #home {
+    height: 35em;
+    background: #d8e0de;
+    background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
+    background: -webkit-linear-gradient(top, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
+    background: linear-gradient(to bottom, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); }
+.adujustable {
+  margin-top:2.8em;
+}
+.brandmonkey {
+  margin-top: 1.15em;
+}
+  .brand-logo {
+    font-family: "Yellowtail", cursive;
+    color: orange;
+    position: relative; }
+  .brand-logo img {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    border: 4px solid orange;
+    background: #fff; }
+  .brand-logo span {
+    position: absolute;
+    font-size: 2.35em;
+    padding: .75em .5em .5em;
+    text-shadow: 2px 2px 2px red; }
+    .span-left {
+    right: 100%;
+}
+  #nav-mobile {
+    margin-top: 8em;
+    display: inline; }
+  #nav-mobile li {
+    display: inline-block;
+    float: none !important; }
+  .social-media-links {
+    position: absolute;
+    top: 12em;
+   // width: 33.33333333%;
+    display: block;
+    right: 33.3333333%;
+    left: 33.3333333%; }
+  .social-media-links li {
+    height: 3em;
+    padding-top: .35em;
+    margin: 1em auto; }
+  .social-media-links li a {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: .5em; }
+  .center {
+    float: none !important; }
+  #portfolio-list {
+    display: inline;
+    list-style: none;
+    float: none !important; }
+  #portfolio-list li {
+    display: inline-block;
+    margin: .1em 16.66666%; }
+  li .card {
+    width: 85%; 
+    border-radius: 10px;
+  }
+  .page-footer {
+    font-size: 1.25em; } }
+
+/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) {
+  /* Styles */
+  #nav-mobile {
+    display: inline;
+    text-align: center; }
+  #home {
+    height: 40em; }
+    .brandmonkey {
+  margin-top: 0;
+}
+  .brand-logo {
+    top: 2.2em !important; }
+    .brand-logo span {
+      margin: 0 .5em;
+    }
+  .brand-logo img {
+    border: 6px solid orange; }
+    #ellipse{
+        margin: 0 auto;
+        width: 35em;
+        height: 20em;
+          background-color: #212121;
+              -moz-border-radius: 0 0 40% 40%;
+    -webkit-border-radius: 0 0 40% 40%;
+    border-radius: 0 0 40% 40%;
+    }
+  .span-left {
+    right: 2.9em;
+    }
+  .span-right{
+    left: 2.9em;
+    }
+  .social-media-links {
+    position: absolute;
+    top: 20em;
+    width: 50%;
+    display: block;
+    right: 25%;
+    left: 25%; }
+  .social-media-links li {
+    display: block;
+    text-align: center; }
+  .brand-logo img {
+    margin-top: 1.15em;
+    height: 13.2em;
+    width: 13.2em;
+    border-radius: 50%; }
+  .brand-logo span {
+    font-size: 3.6em; 
+    bottom: 1.5em;
+  }
+  }
+
+/* iPads (landscape) ----------- */
+/* iPads (portrait) ----------- */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 960px) {
+  /* Styles */
+  .social-media-links {
+    display: inline-flex;
+    top: 24.5em;
+    position: absolute;
+    left: 16.6667%; }
+  .social-media-links li {
+    display: inline-block;
+    margin: 0 3em 2em;
+    width: 13em;
+    text-align: center; }
+  .social-media-links li a {
+    width: 14.5em !important; }
+  .about_text {
+    margin: 0 2em; }
+  #portfolio-list {
+    margin-left: 8.33333%; }
+  #portfolio-list li {
+    margin: 0; }
+  .center h2 {
+    color: #000;
+    font-weight: 900;
+    padding: 0px 10px;
+    text-transform: uppercase; } }
+
+/* Large screens ----------- */
+/* iPhone 4 ----------- */

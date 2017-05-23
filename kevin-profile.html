@@ -8,11 +8,10 @@
 
 <link rel="icon" type="image/ico" href="images/favicon.ico">
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">  <script src="app.js"></script>
-    <script src="profile.ctrl.js"></script>
-    <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 
-<link rel="styleSheet" href="css/pic.css" type="text/css" media="screen">
+
+
   <link rel="styleSheet" href="css/profile.css" type="text/css" media="screen">
     <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -31,18 +30,18 @@
 				<div class='hair-right'></div>
 				<div class='ear-left'></div>
 				<div class='ear-right'></div>
-				<div class='glasses frame-left'></div>
-				<div class='glasses lens-left'></div>
+				<!--<div class='glasses frame-left'></div>-->
+				<!--<div class='glasses lens-left'></div>-->
 					<div class='eye eye-left'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
-					<div class='glasses connector'></div>
-					<div class='glassesconnector-bottom'></div>
+					<!--<div class='glasses connector'></div>-->
+					<!--<div class='glassesconnector-bottom'></div>-->
 				
 				
 				
 				
 					<div class='eye eye-right'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
-				<div class='glasses lens-right'></div>
-				<div class='glasses frame-right'></div>
+				<!--<div class='glasses lens-right'></div>-->
+				<!--<div class='glasses frame-right'></div>-->
 				<div class='nose'></div>
 				<div class='upper-lip'></div>
 				<div class='teeth'></div>
@@ -59,9 +58,17 @@
 </section>
 <section id='resume'>
   <h2>Kevin Rogers</h2>
-  <h3>Summary</h3>
-  <h3>Experience</h3>
-  <h3>Education</h3>
+  <div id='summary'>
+  <h3>{{heading}}</h3>
+  {{summary}}
+  </div>
+  <div id='experience'>
+  <h3>{{heading}}</h3>
+  
+  </div>
+  <div class='education'>
+  <h3>{{heading}}</h3>
+  </div>
   <!-- circles with logos, modals with info -->
   
 </section>
@@ -79,14 +86,12 @@
   
 </section>
       
-      <!--Import jQuery before materialize.js-->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
-    <script src="app.js"></script>
-    <script src="profile.ctrl.js"></script>
-    <script src="script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script src="js/vue.js"></script>
+    <script src="js/profile.js"></script>
+     <script src="script.js"></script>
  
 
   
