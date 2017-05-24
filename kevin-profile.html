@@ -55,13 +55,21 @@
   <div id='experience'>
   <h3>{{heading}}</h3>
   <ul>
-    <li v-for='job in jobs'>
-     <strong>{{job.dates}}</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{job.company}}--{{job.position}}
+    <li class='col-xs-10 offset-xs-1' v-for='job in jobs'>
+      <div class='panel'>
+        <div class='panel-heading'>
+          <h3 class='panel-title'>{{job.dates}}</h3>
+        </div>
+        
+     <strong>{{job.company}}</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{job.position}}
+     
+     <button class='btn btn-primary' v-if='active' v-on:click='activate'>More</button>
+     </div>
     </li>
   </ul>
   <!-- circles with logos, modals with info -->
   </div>
-  <div class='education'>
+  <div id='education'>
   <h3>{{heading}}</h3>
   </div>
   

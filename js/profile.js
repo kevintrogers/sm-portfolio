@@ -10,22 +10,23 @@ var experience = new Vue({
     el: '#experience',
     data: {
         heading: 'Work History',
+        active: false,
         jobs: [
-            {logo: '', dates: '2014-Present', company: 'Citrus City Technology', position: 'Web Developer',
+            {logo: '', dates: '2014-Present', company: 'Citrus City Technology', position: 'Web Developer', 
                 details: [
                     {
                         
                     }
                     ]
             },
-            {logo: '', dates: '2015-2016', company: 'Spicy Monkey Media', position: 'Programmer',
+            {logo: '', dates: '2015-2016', company: 'Spicy Monkey Media', position: 'Programmer', active: false,
                 details: [
                     {
                         
                     }
                     ]
             },
-            {logo: '', dates: '2011-2014', company: 'Planet Herbs, Inc.', position: 'Sales Support Technician',
+            {logo: '', dates: '2011-2014', company: 'Planet Herbs, Inc.', position: 'Sales Support Technician', active: false,
                 details: [
                     {
                         
@@ -33,6 +34,11 @@ var experience = new Vue({
                     ]
             }
             ]
+    },
+    methods: {
+        activate: function () {
+            
+        }
     }
 });
 var education = new Vue({
