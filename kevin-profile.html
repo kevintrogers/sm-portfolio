@@ -30,18 +30,8 @@
 				<div class='hair-right'></div>
 				<div class='ear-left'></div>
 				<div class='ear-right'></div>
-				<!--<div class='glasses frame-left'></div>-->
-				<!--<div class='glasses lens-left'></div>-->
-					<div class='eye eye-left'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
-					<!--<div class='glasses connector'></div>-->
-					<!--<div class='glassesconnector-bottom'></div>-->
-				
-				
-				
-				
-					<div class='eye eye-right'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
-				<!--<div class='glasses lens-right'></div>-->
-				<!--<div class='glasses frame-right'></div>-->
+				<div class='eye eye-left'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
+				<div class='eye eye-right'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
 				<div class='nose'></div>
 				<div class='upper-lip'></div>
 				<div class='teeth'></div>
@@ -60,16 +50,21 @@
   <h2>Kevin Rogers</h2>
   <div id='summary'>
   <h3>{{heading}}</h3>
-  {{summary}}
+  <p>{{summary}}</p>
   </div>
   <div id='experience'>
   <h3>{{heading}}</h3>
-  
+  <ul>
+    <li v-for='job in jobs'>
+     <strong>{{job.dates}}</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{job.company}}--{{job.position}}
+    </li>
+  </ul>
+  <!-- circles with logos, modals with info -->
   </div>
   <div class='education'>
   <h3>{{heading}}</h3>
   </div>
-  <!-- circles with logos, modals with info -->
+  
   
 </section>
 <section id='projects'>
