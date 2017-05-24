@@ -50,22 +50,27 @@
   <h2>Kevin Rogers</h2>
   <div id='summary'>
   <h3>{{heading}}</h3>
-  <p>{{summary}}</p>
+  <p class='col-xs-10 offset-xs-1'>{{summary}}</p>
   </div>
   <div id='experience'>
   <h3>{{heading}}</h3>
-  <ul>
-    <li class='col-xs-10 offset-xs-1' v-for='job in jobs'>
+  <ul class= 'col-xs-10 offset-xs-1'>
+    <li v-for='job in jobs'>
       <div class='panel'>
         <div class='panel-heading'>
           <h3 class='panel-title'>{{job.dates}}</h3>
         </div>
         
      <strong>{{job.company}}</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{job.position}}
-     
-     <button class='btn btn-primary' v-if='active' v-on:click='activate'>More</button>
+   
+     <button class='btn btn-primary'  v-on:click='activate'>More</button>
+     <ul id='job-details'  v-if='job.active' v-for='detail in job.details'>
+       <li>
+       @{{detail}}
+       </li>
      </div>
-    </li>
+     </ul>
+     </div>    </li>
   </ul>
   <!-- circles with logos, modals with info -->
   </div>

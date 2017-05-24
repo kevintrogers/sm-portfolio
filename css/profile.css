@@ -25,3 +25,9 @@ section {
 
 #pizza {
   background: #FBE7F7; }
+
+.show {
+  display: block; }
+
+.hide {
+  display: none; }

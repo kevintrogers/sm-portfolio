@@ -1,3 +1,4 @@
+$(function(){
 var summary = new Vue({
   el: '#summary',
   data: {
@@ -6,20 +7,22 @@ var summary = new Vue({
     
   }
 });
+/*
+Make a container for profile pic.
+*/
 var experience = new Vue({
     el: '#experience',
     data: {
         heading: 'Work History',
-        active: false,
         jobs: [
-            {logo: '', dates: '2014-Present', company: 'Citrus City Technology', position: 'Web Developer', 
+            {logo: '', dates: '2014-Present', company: 'Citrus City Technology', position: 'Web Developer', active: false,
                 details: [
-                    {
+                     'I did this.',  'I did that.'
                         
-                    }
+                    
                     ]
             },
-            {logo: '', dates: '2015-2016', company: 'Spicy Monkey Media', position: 'Programmer', active: false,
+            {logo: '', dates: '2015-2016', company: 'GreatLike Media', position: 'Programmer', active: false,
                 details: [
                     {
                         
@@ -37,7 +40,9 @@ var experience = new Vue({
     },
     methods: {
         activate: function () {
+            var jobDetails = $('#job-details li');
             
+            jobDetails.addClass('show');
         }
     }
 });
@@ -48,4 +53,5 @@ var education = new Vue({
         
     }
     
+});
 });
