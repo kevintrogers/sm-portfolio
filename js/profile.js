@@ -1,4 +1,23 @@
 $(function(){
+    
+var directory = new Vue({
+  el: '#directory',
+  data: {
+    heading: 'Code Repositories',
+    links: [
+        {url: 'https://codepen.io/MonkeyMaker/',
+        icon: 'fa fa-codepen'
+        },
+        {url: 'https://github.com/kevintrogers',
+        icon: "fa fa-github"
+        }
+  ]
+        
+        
+    
+  }
+});
+
 var summary = new Vue({
   el: '#summary',
   data: {
