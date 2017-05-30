@@ -35,7 +35,21 @@ section {
 }
 .contact-info {
     float:left;
-    margin-left: 1em;
+    margin-left: -3.5em;
+    background: darkslateblue;
+    color: #fff;
+      transform:skew(17.5deg,0deg);
+    -ms-transform:skew(17.5deg,0deg);
+    -webkit-transform:skew(17.5deg,0deg); 
+}
+.contact-info a {
+    color: lightblue;
+}
+.contact-text {
+          transform:skew(-17.5deg,0deg);
+    -ms-transform:skew(-17.5deg,0deg);
+    -webkit-transform:skew(-17.5deg,0deg); 
+    
 }
 #code-list {
     display:inline;
