@@ -31,6 +31,8 @@ section {
 #directory{
     background: $directory-color;
     height:auto;
+    z-index: -2;
+    position: relative;
     
 }
 .contact-info {

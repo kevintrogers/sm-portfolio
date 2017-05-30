@@ -21,7 +21,9 @@ section {
 
 #directory {
   background: #D6FBA9;
-  height: auto; }
+  height: auto;
+  z-index: -2;
+  position: relative; }
 
 .contact-info {
   float: left;

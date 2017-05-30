@@ -7,10 +7,13 @@
 
 .box {
   position: relative;
-  height: 600px;
-  width: 600px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
   margin: auto;
-  display: block; }
+  display: block;
+  z-index: -1;
+  float: none; }
 
 .head {
   position: absolute;
@@ -120,50 +123,6 @@
   width: 50%;
   height: 50%;
   border-radius: 50%; }
-
-.frame-left {
-  position: absolute;
-  background: #202020;
-  top: 33%;
-  left: 0.5%;
-  height: 2%;
-  width: 25%; }
-
-.frame-right {
-  position: absolute;
-  background: #202020;
-  top: 33%;
-  right: 0.5%;
-  height: 2%;
-  width: 25%; }
-
-.lens-left {
-  position: absolute;
-  background: transparent;
-  border: 5px solid #202020;
-  height: 19.5%;
-  width: 20.5%;
-  top: 33%;
-  left: 25.5%;
-  border-radius: 0 0 50% 50%; }
-
-.lens-right {
-  position: absolute;
-  background: transparent;
-  border: 5px solid #202020;
-  height: 19.5%;
-  width: 20.5%;
-  top: 33%;
-  right: 25.5%;
-  border-radius: 0 0 50% 50%; }
-
-.connector {
-  position: absolute;
-  background: #202020;
-  top: 33%;
-  left: 41.5%;
-  height: 1.8%;
-  width: 15%; }
 
 .nose {
   position: absolute;
