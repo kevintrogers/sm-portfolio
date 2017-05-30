@@ -22,21 +22,19 @@ var experience = new Vue({
                     
                     ]
             },
-            {logo: '', dates: '2015-2016', company: 'GreatLike Media', position: 'Programmer', active: false,
+            {logo: '/img/Greatlike.png', dates: '2015-2016', company: 'GreatLike Media', position: 'Programmer', active: false,
                 details: [
                     {
                         
                     }
                     ]
             },
-            {logo: '', dates: '2011-2014', company: 'Planet Herbs, Inc.', position: 'Sales Support Technician', active: false,
+            {logo:'/img/wellness-nations-logo.png', dates: '2011-2014', company: 'Planet Herbs, Inc.', position: 'Sales Support Technician', active: false,
                 details: [
                     {
                         
-                    }
-                    ]
-            }
-            ]
+                    }]
+            }]
     },
     methods: {
         activate: function () {
@@ -50,6 +48,16 @@ var education = new Vue({
     el: '#education',
     data: {
         heading: 'Education',
+        schools: [
+            {logo: '/img/glendale-community-college-california.png', school: 'Glendale Community College', major: 'Computer Science'
+                
+            },
+                        {logo: '/../img/willamette-university.jpg', school: 'Willamette University', major: 'Philosophy'
+                
+            },
+                        {logo: 'img/university-of-phoenix.jpg', school: 'University of Phoenix', major: 'Education'
+                
+            }]
         
     }
     

@@ -6,6 +6,11 @@ $headline-color: #95524E;
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
 section h2 {
     
     -webkit-margin-before: 0 !important;
@@ -41,5 +46,9 @@ section {
 }
 .hide {
     display: none;
+    
+}
+ul  {
+    list-style:none;
     
 }
