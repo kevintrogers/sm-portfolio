@@ -1,5 +1,29 @@
 $(function(){
     
+var nav = new Vue({
+    el: '.navigation',
+    data: {
+        links: [
+        {url: '#summary',
+        linkText: 'Summary'
+        },
+        {url: '#experience',
+        linkText: 'Experience'
+        },
+        {url: '#education',
+        linkText: 'Education'
+        },
+        {url: '#projects',
+        linkText: 'Projects'
+        },
+        {url: '#contact',
+        linkText: 'contact'
+        }
+    ]
+        
+    }
+});
+    
 var directory = new Vue({
   el: '#directory',
   data: {
