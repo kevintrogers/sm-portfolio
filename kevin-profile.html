@@ -25,13 +25,13 @@
 <section id='directory' class='row'>
   <div class='contact-info col-xs-6'>
     <div class='contact-text'>
-  <h1>Kevin Rogers</h1>
-  <h4><a href='emailto:kevin_t_rogers@hotmail.com'>kevin_t_rogers@hotmail.com</a></h4>
+  <h1 class='hidden-xs'>Kevin Rogers</h1>
+  <h4 class='hidden-xs'><a href='emailto:kevin_t_rogers@hotmail.com'>kevin_t_rogers@hotmail.com</a></h4>
   <div class='row code-links'>
-    <h4>{{heading}}</h4>
+    <h4 class='hidden-xs'>{{heading}}</h4>
         </div>
     <ul id='code-list' v-for='link in links'>
-      <li class='col-xs-2 col-xs-offset-3'><a :href='link.url'><i :class='link.icon'></i></a></li>
+      <li class='col-xs-2 col-xs-offset-3 hidden-xs'><a :href='link.url'><i :class='link.icon'></i></a></li>
     </ul>
 
   </div>
