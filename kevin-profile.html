@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 
 
-
+  <link rel="styleSheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen">
   <link rel="styleSheet" href="css/profile.css" type="text/css" media="screen">
     <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,7 +21,18 @@
     </head>
 
     <body ng-app="app" ng-controller="ProfileController as profile" class=''>
-<section id='directory'>
+<section id='directory row'>
+  <div class='contact-info'>
+  <h1>Kevin Rogers</h1>
+  <h4><a href='emailto:kevin_t_rogers@hotmail.com'>kevin_t_rogers@hotmail.com</a></h4>
+  <div class='row code-links'>
+    <h4>Code Samples</h4>
+    <ul>
+      <li><a href='https://codepen.io/MonkeyMaker/'><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+      <li><a href='https://github.com/kevintrogers'><i class="fa fa-github" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+  </div>
   	<div class='box'>
 		<div class='head'>
 
@@ -47,11 +58,10 @@
   
 </section>
 <section id='resume'>
-  <h2>Kevin Rogers</h2>
   <div class='row' id='summary'>
     <h3>{{heading}}</h3>
-      <div class='panel'>
-        <p class='col-xs-10 col-xs-offset-1'>{{summary}}</p>
+      <div class='panel col-xs-10 col-xs-offset-1'>
+        <p class='summary-article'>{{summary}}</p>
       </div>
   </div>
   <div class='row' id='experience'>
