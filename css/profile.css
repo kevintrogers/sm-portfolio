@@ -17,10 +17,25 @@ section h3, section h6 {
 
 section {
   min-height: 4em;
-  margin: none !important; }
+  clear: both; }
 
 #directory {
-  background: #D6FBA9; }
+  background: #D6FBA9;
+  height: auto; }
+
+.contact-info {
+  float: left;
+  margin-left: 1em; }
+
+#code-list {
+  display: inline; }
+
+#code-list li {
+  display: inline-block; }
+
+#code-list li a {
+  font-size: 2em;
+  text-align: center; }
 
 #resume {
   background: #F9FBE7; }
