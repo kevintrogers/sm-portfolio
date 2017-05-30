@@ -31,7 +31,10 @@ $shirt-color:#448aff;
     display:block;
     z-index:-1;
     float:none;
-        
+    background: #fff;
+    left: 20%;
+    left: 12.5%;
+    margin-top: 1em;
 }
 .head {
   position: absolute;
@@ -244,12 +247,7 @@ $form-color: #e8f5e9;
 .box {
     display:block;
     position: relative;
-    margin-bottom: 2em;
-    margin: auto;
-    width: 800px;
-    height: 600px;
-    background: $background-color;
-    max-width: 100%;
+
 }
 .box-outside {
     position: absolute;

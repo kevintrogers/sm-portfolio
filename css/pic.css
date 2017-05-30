@@ -13,7 +13,11 @@
   margin: auto;
   display: block;
   z-index: -1;
-  float: none; }
+  float: none;
+  background: #fff;
+  left: 20%;
+  left: 12.5%;
+  margin-top: 1em; }
 
 .head {
   position: absolute;
@@ -195,13 +199,7 @@
 
 .box {
   display: block;
-  position: relative;
-  margin-bottom: 2em;
-  margin: auto;
-  width: 800px;
-  height: 600px;
-  background: #fffde7;
-  max-width: 100%; }
+  position: relative; }
 
 .box-outside {
   position: absolute;
