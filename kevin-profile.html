@@ -49,8 +49,10 @@
 <section id='resume'>
   <h2>Kevin Rogers</h2>
   <div class='row' id='summary'>
-  <h3>{{heading}}</h3>
-  <p class='col-xs-10 offset-xs-1'>{{summary}}</p>
+    <h3>{{heading}}</h3>
+      <div class='panel'>
+        <p class='col-xs-10 col-xs-offset-1'>{{summary}}</p>
+      </div>
   </div>
   <div class='row' id='experience'>
   <h3>{{heading}}</h3>
@@ -84,7 +86,7 @@
           <h3 class='panel-title'>{{school.school}}</h3>
         </div>
         <img class='circle' :src=' school.logo'>
-     <strong class='major'>{{school.major}}</strong>
+      <span class='major'>Major:<strong>{{school.major}}</strong></span>
  
        </li>
        
