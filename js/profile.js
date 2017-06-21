@@ -65,7 +65,7 @@ var experience = new Vue({
                     
                     ]
             },
-            {logo: 'img/Greatlike.png', dates: '2015-2016', company: 'GreatLike Media', position: 'Programmer', active: false,
+            {logo: 'img/greatlike-square.jpg', dates: '2015-2016', company: 'GreatLike Media', position: 'Programmer', active: false,
                 details: [
                     {
                         

@@ -79,7 +79,7 @@
         <div class='panel-heading'>
           <h3 class='panel-title'>{{job.dates}}</h3>
         </div>
-        <img class='circle' :src='job.logo'>
+        <img class='profile-img' :src='job.logo'>
      <strong class='company'>{{job.company}}</strong><span class='position'>{{job.position}}</span>
    
      <button class='btn btn-primary'  v-on:click='activate'>More</button>
@@ -92,7 +92,7 @@
      </ul>
      </div>    
   </ul>
-  <!-- circles with logos, modals with info -->
+  <!-- profile-imgs with logos, modals with info -->
   </div>
   <div class='row' id='education'>
   <h3>{{heading}}</h3>
@@ -102,7 +102,7 @@
         <div class='panel-heading'>
           <h3 class='panel-title'>{{school.school}}</h3>
         </div>
-        <img class='circle' :src=' school.logo'>
+        <img class='profile-img' :src=' school.logo'>
       <span class='major'>Major:<strong>{{school.major}}</strong></span>
  
        </li>

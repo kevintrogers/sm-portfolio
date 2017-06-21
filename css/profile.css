@@ -1,10 +1,10 @@
 h1, h2, h3, h4, h5, h6 {
   text-align: center; }
 
-.circle {
-  border-radius: 50%;
+.profile-img {
   height: 100px;
-  width: 100px; }
+  width: 100px;
+  margin: .3em; }
 
 section h2 {
   -webkit-margin-before: 0 !important;
