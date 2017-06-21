@@ -58,7 +58,7 @@ var experience = new Vue({
     data: {
         heading: 'Work History',
         jobs: [
-            {logo: '', dates: '2014-Present', company: 'Citrus City Technology', position: 'Web Developer', active: false,
+            {logo: '/img/spicymonkey_logo.png', dates: '2014-Present', company: 'Citrus City Technology', position: 'Web Developer', active: false,
                 details: [
                      'I did this.',  'I did that.'
                         
@@ -98,7 +98,7 @@ var education = new Vue({
                         {logo: '/../img/willamette-university.jpg', school: 'Willamette University', major: 'Philosophy'
                 
             },
-                        {logo: 'img/university-of-phoenix.jpg', school: 'University of Phoenix', major: 'Education'
+                        {logo: 'img/university-of-phoenix.png', school: 'University of Phoenix', major: 'Education'
                 
             }]
         
