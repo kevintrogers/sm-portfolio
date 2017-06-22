@@ -22,23 +22,23 @@
 
     <body>
 <section id='directory' class='row'>
-  <div class='contact-info col-xs-6'>
-    <div class='navigation visible-xs col-xs-1 col-xs-offset-3'>
+  <div class='contact-info col-sm-6'>
+    <div class='navigation visible-sm col-sm-1 col-sm-offset-3'>
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <div class='contact-text'>
-  <h1 class='hidden-xs'>Kevin Rogers</h1>
-  <h4 class='hidden-xs'><a href='emailto:kevin_t_rogers@hotmail.com'>kevin_t_rogers@hotmail.com</a></h4>
+  <h1 class='hidden-sm'>Kevin Rogers</h1>
+  <h4 class='hidden-sm'><a href='emailto:kevin_t_rogers@hotmail.com'>kevin_t_rogers@hotmail.com</a></h4>
   <div class='row code-links'>
-    <h4 class='hidden-xs'>{{heading}}</h4>
+    <h4 class='hidden-sm'>{{heading}}</h4>
         </div>
     <ul id='code-list' v-for='link in links'>
-      <li class='col-xs-2 col-xs-offset-3 hidden-xs'><a :href='link.url'><i :class='link.icon'></i></a></li>
+      <li class='col-sm-2 col-sm-offset-3 hidden-sm'><a :href='link.url'><i :class='link.icon'></i></a></li>
     </ul>
 
   </div>
   </div>
-  	<div class='box col-xs-8 col-xs-offset-4'>
+  	<div class='box col-sm-6 col-sm-offset-4'>
 		<div class='head'>
 
 				<div class='hair-left'></div>
@@ -65,8 +65,8 @@
 </section>
 <section id='resume'>
   <div class='row' id='summary'>
-    <h3>{{heading}}</h3>
-      <div class='card col-xs-10 col-xs-offset-1'>
+    <h3>{{heading}}</h3
+      <div class='card col-sm-10 col-sm-offset-1'>
         <p class='summary-article'>{{summary}}</p>
       </div>
   </div>
@@ -77,7 +77,7 @@
       <divider></divider>
     </div>
   <ul>
-    <li class='col-xs-10 col-xs-offset-1' v-for='job in jobs'>
+    <li class='col-sm-10 col-sm-offset-1' v-for='job in jobs'>
       <div class='card'>
         <div class='card-heading'>
           <h3 class='card-title'>{{job.dates}}</h3>
@@ -100,7 +100,7 @@
   <div class='row' id='education'>
   <h3>{{heading}}</h3>
     <ul>
-      <li class= 'col-xs-10 col-xs-offset-1' v-for='school in schools'>
+      <li class= 'col-sm-10 col-sm-offset-1' v-for='school in schools'>
       <div class='card'>
         <div class='card-heading'>
           <h3 class='card-title'>{{school.school}}</h3>
