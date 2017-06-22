@@ -3,6 +3,7 @@ $resume-color: #F9FBE7;
 $projects-color: #C8A6A4;
 $pizza-color: #FBE7F7;
 $headline-color: #95524E;
+$divider-color: purple;
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
@@ -18,10 +19,16 @@ section h2 {
 }
 section h3, section h6 {
     color: $headline-color;
+    font-style: italic;
         -webkit-margin-before: 0 !important;
     -webkit-margin-after: 0 !important;
 
     
+}
+.divider-bar {
+    height: 3px;
+    background: $divider-color;
+    width: 8em;
 }
 section {
     min-height:4em;

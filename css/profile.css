@@ -12,8 +12,14 @@ section h2 {
 
 section h3, section h6 {
   color: #95524E;
+  font-style: italic;
   -webkit-margin-before: 0 !important;
   -webkit-margin-after: 0 !important; }
+
+.divider-bar {
+  height: 3px;
+  background: purple;
+  width: 8em; }
 
 section {
   min-height: 4em;

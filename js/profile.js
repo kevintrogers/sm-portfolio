@@ -23,6 +23,11 @@ var nav = new Vue({
         
     }
 });
+
+Vue.component('divider', 
+    {template: "<div class='col-2 divider-bar'></div>"
+    
+});
     
 var directory = new Vue({
   el: '#directory',
