@@ -5,13 +5,24 @@ $secondary-color:#FF8219;
 $tertiary-color:#3700FF;
 $quaternary-color:#C8E6C9;
 $quinary-color:#09B20F;
-$dark: #262626;
+$dark: #282828;
 $light: #fff;
+
+
 
 
 body {
   background: $primary-color;
   
+  
+}
+
+h1, h2 {
+  color: $secondary-color;
+}
+h2{
+  text-align:center;
+  color: $tertiary-color;
 }
 #home {
   background:$dark;
@@ -24,7 +35,7 @@ ul {
 }
 
 footer{
-    position: absolute;
+    position: relative;
     bottom: 1em;
     font-weight: 400;
 }

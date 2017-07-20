@@ -20,26 +20,46 @@
     </head>
 
     <body>
-      <div class='container'>
+      <div class='container-fluid'>
         
         <section id='home'>
           
-          <div id='skill-list'>
-            <ul>
-              <li v-for='skill in skills'>
-                {{ skill.skill }}
-              </li>
-            </ul>
+          <div class='row'>
+            <h6 class='col-6 offset-3'> I design with passion.</h6>
           </div>
           
-          <h1> I build with code.</h1>
           
-          <div id='solution-list'>
-            <ul>
-              <li v-for='solution in solutions'>
-                {{ solution.solution }}
-              </li>
-            </ul>
+          <div class='row'>
+            <h1 class='col-8 offset-2'> I build with code.</h1>
+          </div>
+          
+          <div class='row'>
+            <p class='col-8 offset-2'>I am a full stack web developer that specializes in 
+          WordPress and Meteor JS development.</p>
+          </div>
+          
+        </section>
+        <section id='biography'>
+          <div class='row'>
+            <article class='col-10 offset-1 col-sm-8 offset-sm-2'>
+              <h2> Who is This Guy?</h2>
+              <h3>My Story</h3>
+              <p>I taught myself how to write code while living in a Los Angeles
+              apartment complex where my downstairs neighbor threatened to set the place
+              on fire in the middle of the night, the upstairs neighbors could teach a class 
+              on how to have ridiculous arguments, and the people living behind our parking lot
+              liked to have a good time (DJ and strobe lights included).</p>
+              <p>I like to think I have perseverance and a passion for making cool stuff on the 
+              web.
+              </p>
+              <p>When I'm not blowing people's minds with my code, you might find me cooking, 
+              hiking, or playing some kind of strategy game. There is also an 85% chance that 
+              there is a cup of coffee nearby.
+              </p>
+              <p>I am based out of Orange County, California and am available for hire.
+              </p>
+              <a href='#contact' type='button' class='btn btn-block btn-lg btn-success '>Tell Me About Your Project</a>
+            </article>
           </div>
           
         </section>
