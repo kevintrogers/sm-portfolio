@@ -1,62 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:300,100");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,700");
 body {
-  background: green;
-  font-family: "Muli"; }
+  background: #CEC8E6; }
 
-#job-title {
-  color: dodgerblue;
-  font-style: italic;
-  font-weight: 100; }
-
-h1, nav ul li a {
-  color: #fff; }
-
-h1, nav ul li a, .seperator {
-  animation: reveal 1s 2s forwards; }
-
-.spotlight-row {
-  margin-top: 2em; }
-
-.spotlight-left {
+#home {
+  background: #262626;
   color: #fff;
-  position: absolute;
-  background: #202020;
-  height: 3em;
-  width: 3em;
-  left: 20%;
-  border-radius: 90% 0% 360% 0%;
-  animation: turn-on-lights-left 1s 2s forwards; }
-
-.spotlight-right {
-  color: #fff;
-  position: absolute;
-  background: #202020;
-  height: 3em;
-  width: 3em;
-  right: 33%;
-  border-radius: 90% 0% 0% 360%;
-  animation: turn-on-lights-right .5s 2.5s forwards; }
-
-.feature {
-  text-align: center; }
-
-.feature h5 {
-  font-style: italic;
-  font-family: 'Sonsie One';
-  color: dodgerblue; }
-
-.seperator {
-  height: .1em;
-  background: lightblue; }
+  font-family: 'Work Sans', sans-serif; }
 
 ul {
   list-style: none; }
 
-ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.65em; }
-
-ul li a:hover {
-  color: lightblue;
-  text-decoration: none; }
+footer {
+  position: absolute;
+  bottom: 1em;
+  font-weight: 400; }

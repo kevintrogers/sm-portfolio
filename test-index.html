@@ -2,7 +2,7 @@
   <html>
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-                          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+                          
  <!-- Compiled and minified CSS -->
 
 
@@ -10,64 +10,52 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">  <script src="app.js"></script>
 
-
-
   <link rel="styleSheet" href="css/test-style.css" type="text/css" media="screen">
-  <!--<link rel="styleSheet" href="css/pic.css" type="text/css" media="screen">-->
-    <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link rel="styleSheet" href="css/pic.css" type="text/css" media="screen">
+  <!--  [if lt IE 9]>-->
+  <!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+  <!--<![endif]-->
 
 
     </head>
 
-    <body ng-app="app" ng-controller="ProfileController as main" class='cyan lighten-5'>
-<div class='row'>
-  <div class='col col-sm-8 col-offset-sm-4 feature'>
-  <h1>Kevin Rogers</h1>
-    <h3 id='job-title'>Web Developer</h3>
-    <script>
- 
-    </script>
-  </div>
-</div>
- 
-
-<div class='seperator col col-sm-4 offset-sm-3'></div>
-<nav>
-  <ul class='col col-sm-4 offset-sm-4'>
-    <li><a href='#resume'>About Me</a></li>
-    <li><a href='#resume'>Resume</a></li>
-    <li><a href='#miscellaneous'>Projects</a></li>
-    <li><a href='#contact'>Contact</a></li>
-  </ul>
-</nav>
-      
-
-
-  
+    <body>
+      <div class='container'>
+        
+        <section id='home'>
+          
+          <div id='skill-list'>
+            <ul>
+              <li v-for='skill in skills'>
+                {{ skill.skill }}
+              </li>
+            </ul>
+          </div>
+          
+          <h1> I build with code.</h1>
+          
+          <div id='solution-list'>
+            <ul>
+              <li v-for='solution in solutions'>
+                {{ solution.solution }}
+              </li>
+            </ul>
+          </div>
+          
+        </section>
+    </div>
     </body>
       <footer class="@ flow-text">
 
-<div class="footer-copyright col s12 grey darken-4"> 
-      <div class="col s5 offset-s1 m4 offset-m2">&copy; 2017 <a href="http://spicymonkeymedia.com/#home"> Spicy Monkey Media.</a>
-      </div>
+    <div class="footer-copyright col s12 grey darken-4"> 
+          <div class="col s5 offset-s1 m4 offset-m2">&copy; 2017 <a href="http://spicymonkeymedia.com/#home"> Spicy Monkey Media.</a>
+          </div>
+    </div>
 
   </footer>
-
-
-  <footer>
-</footer>
-  </body>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
- 
-
-
     
-          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
-    <script src="app.js"></script>
-    <script src="profile.ctrl.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/profile-vue.js"></script>
     <script src="script.js"></script>
  
   </html>

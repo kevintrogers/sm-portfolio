@@ -1,75 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,100');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,700');
 
-$body-color: green;
-$text-color: #fff;
-$title-color: dodgerblue;
-
-
+$primary-color:#CEC8E6;
+$secondary-color:#FF8219;
+$tertiary-color:#3700FF;
+$quaternary-color:#C8E6C9;
+$quinary-color:#09B20F;
+$dark: #262626;
+$light: #fff;
 
 
 body {
-  background: $body-color;  
-  font-family: 'Muli',
-} 
-#job-title {
-  color:$title-color;
-  font-style: italic;
-  font-weight: 100;
+  background: $primary-color;
+  
+}
+#home {
+  background:$dark;
+  color: $light;
+  font-family: 'Work Sans', sans-serif;
 }
 
-h1, nav ul li a {
-  color: $text-color;   
-}
-
-h1, nav ul li a, .seperator {
-  animation: reveal 1s 2s forwards;
-}
-.spotlight-row {
-  margin-top:2em;
-}
-@mixin spotlight  {
-  color: #fff;
-  position: absolute; 
-  background: #202020;
-  height: 3em;
-  width: 3em;   
-}
-.spotlight-left {
-  @include spotlight;
-  left: 20%;  
-  border-radius: 90% 0% 360% 0%;
-  animation: turn-on-lights-left 1s 2s forwards;
-
-}
-.spotlight-right{
-  @include spotlight;
-  right: 33%;
-  border-radius:  90% 0% 0% 360%;  
-  animation: turn-on-lights-right .5s 2.5s forwards;
-}
-
-.feature {
-text-align:center;
-}
-.feature h5 {
-  font-style: italic;
-  font-family: 'Sonsie One';
-  color: dodgerblue;
-}
-
-.seperator {
-  height: .1em;  
-  background: lightblue;
-}
 ul {
-  list-style: none;
+  list-style:none;
 }
-ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.65em;
-}
-ul li a:hover {
-  color:lightblue;
-  text-decoration: none;
+
+footer{
+    position: absolute;
+    bottom: 1em;
+    font-weight: 400;
 }
