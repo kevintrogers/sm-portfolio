@@ -13,21 +13,30 @@ $light: #fff;
 
 body {
   background: $primary-color;
+  line-height: 150%;
   
   
 }
 
-h1, h2 {
+h1 {
   color: $secondary-color;
+  font-weight:700;
+  
 }
 h2{
   text-align:center;
   color: $tertiary-color;
+  font-style: italic;
+  font-weight:400;
+}
+h3 {
+  font-weight: 100;
 }
 #home {
   background:$dark;
   color: $light;
   font-family: 'Work Sans', sans-serif;
+  font-weight:100;
 }
 
 ul {
@@ -36,6 +45,5 @@ ul {
 
 footer{
     position: relative;
-    bottom: 1em;
     font-weight: 400;
 }

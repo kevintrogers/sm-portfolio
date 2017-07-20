@@ -1,23 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,700");
 body {
-  background: #CEC8E6; }
+  background: #CEC8E6;
+  line-height: 150%; }
 
-h1, h2 {
-  color: #FF8219; }
+h1 {
+  color: #FF8219;
+  font-weight: 700; }
 
 h2 {
   text-align: center;
-  color: #3700FF; }
+  color: #3700FF;
+  font-style: italic;
+  font-weight: 400; }
+
+h3 {
+  font-weight: 100; }
 
 #home {
   background: #282828;
   color: #fff;
-  font-family: 'Work Sans', sans-serif; }
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100; }
 
 ul {
   list-style: none; }
 
 footer {
   position: relative;
-  bottom: 1em;
   font-weight: 400; }
