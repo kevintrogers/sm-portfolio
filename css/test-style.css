@@ -22,9 +22,13 @@ h3 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 100; }
 
-.icon-prompt {
-  color: #C8E6C9;
-  margin-left: 50%; }
+.btn-action {
+  background: #FF8219;
+  color: #fff; }
+
+.btn-outline-secondary {
+  color: #fff;
+  border-color: #fff; }
 
 #biography p {
   color: transparent; }

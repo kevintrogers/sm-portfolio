@@ -38,9 +38,14 @@ h3 {
   font-family: 'Work Sans', sans-serif;
   font-weight:100;
 }
-.icon-prompt {
- color: $quaternary-color;
- margin-left:50%;
+.btn-action {
+  background:$secondary-color;
+  color: $light;
+}
+.btn-outline-secondary {
+  color:$light;
+  border-color: $light;
+  
 }
 
 #biography p{
