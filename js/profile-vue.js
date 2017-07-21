@@ -8,6 +8,7 @@ var skills = new Vue({
     ],
   }
 });
+
   var solutions = new Vue({
   el: '#solution-list',
   data: {
