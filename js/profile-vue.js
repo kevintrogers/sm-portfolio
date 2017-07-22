@@ -1,23 +1,17 @@
-var skills = new Vue({
-  el: '#skill-list',
-  data: {
-    skills: [
-        { skill: 'WordPress'},
-        { skill: 'Meteor JS'},
-        { skill: 'Vue JS'}
-    ],
-  }
-});
 
-  var solutions = new Vue({
-  el: '#solution-list',
+
+  var projects = new Vue({
+  el: '#projects',
   data: {
-    solutions: [
-        {solution: 'Full Stack Development'},
-        {solution: 'Web Design'},
-        {solution: 'Hosting'},
-        {solution: 'Asset Creation'},
-        {solution:'SEO'}
-        ]
+    projects: [
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http://example.com'},
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http:example.com'},
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http:example.com'},
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http:example.com'},
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http:example.com'},
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http:example.com'},
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http:example.com'},
+        {title: 'Coming Soon', img='https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif', url: 'http:example.com'}
+       ]
   }
-});
+})
