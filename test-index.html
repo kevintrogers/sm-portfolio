@@ -44,7 +44,7 @@
               <a href='#biography' type='link' class='btn btn-lg btn-action'>Learn More About Me</a>
               <a href='#contact' type='link' class='btn btn-lg btn-outline-secondary'>Tell Me About Your Project</a>
               </div>
-          </div>
+      
           
         </section>
         <section id='biography'>
@@ -81,9 +81,9 @@
           <h2>Some Recent Projects</h2>
           
           <div class='row'>
-            <ul>
-              <li v-for='project in projects'>
-                <a href='{{project.url}}'><img src='{{project.img}}'></a>
+            <ul v-for='project in projects'>
+              <li class='col col-10 offset-1 col-sm-3 offset-sm-1'>
+                <a :href='project.url '><img :src='project.img' class='circle'></a>
                
                 <span class='title'>{{ project.title }}</span>
                 
@@ -94,7 +94,7 @@
               <a href='#contact' type='link' class='btn btn-lg btn-action btn-block'>Tell Me About Your Project</a>
               </div>
           </div>
-          
+     </div> 
         </section>
         <section id='contact'>
           
@@ -103,8 +103,8 @@
     </body>
 
     
-    <script src="js/vue.js"></script>
-    <script src="js/profile-vue.js"></script>
+    <script src="/js/vue.js"></script>
+    <script src="/js/profile-vue.js"></script>
     <script src="script.js"></script>
  
   </html>
