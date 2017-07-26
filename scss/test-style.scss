@@ -14,8 +14,6 @@ $light: #fff;
 body {
   background: $primary-color;
   line-height: 150%;
-  
-  
 }
 
 h1 {
@@ -33,7 +31,7 @@ h3 {
   color: $tertiary-color;
   font-style: italic;
 }
-#home, #biography, #proejects, #contact{
+#home, #biography, #projects, #contact{
   background:$dark;
   color: $light;
   font-family: 'Work Sans', sans-serif;
@@ -49,7 +47,11 @@ h3 {
   border-color: $light;
   
 }
-
+.fa-hand-o-down {
+  text-align:center;
+  margin: 0 42.5vw ;
+  color: $quaternary-color;
+}
 
 ul {
   list-style:none;

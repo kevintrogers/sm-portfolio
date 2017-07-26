@@ -17,7 +17,7 @@ h3 {
   color: #3700FF;
   font-style: italic; }
 
-#home, #biography, #proejects, #contact {
+#home, #biography, #projects, #contact {
   background: #282828;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
@@ -31,6 +31,11 @@ h3 {
 .btn-outline-secondary {
   color: #fff;
   border-color: #fff; }
+
+.fa-hand-o-down {
+  text-align: center;
+  margin: 0 42.5vw;
+  color: #C8E6C9; }
 
 ul {
   list-style: none; }
