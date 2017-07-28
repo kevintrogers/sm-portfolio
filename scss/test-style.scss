@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,500');
 
-$primary-color:#CEC8E6;
-$secondary-color:#FF8219;
-$tertiary-color:#3700FF;
-$quaternary-color:#C8E6C9;
-$quinary-color:#09B20F;
+$primary-color:#14CCA9;
+$secondary-color:#40EFFF;
+$tertiary-color:#FF9000;
+$quaternary-color:#99843D;
+$quinary-color:#CCA214;
 $dark: #282828;
 $light: #fff;
 
@@ -50,7 +50,7 @@ h3 {
 .fa-hand-o-down {
   text-align:center;
   margin: 0 42.5vw ;
-  color: $quaternary-color;
+  color: $quinary-color;
 }
 
 ul {
@@ -79,4 +79,8 @@ span.title{
 footer{
     position: relative;
     font-weight: 400;
+}
+form {
+  color: $quaternary-color;
+  font-weight:400;
 }
