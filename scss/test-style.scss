@@ -31,12 +31,23 @@ h3 {
   color: $tertiary-color;
   font-style: italic;
 }
-#home, #biography, #projects, #contact{
+section {
   background:$dark;
   color: $light;
   font-family: 'Work Sans', sans-serif;
   font-weight:200;
   height: 100vh;
+  
+}
+#home {
+  background: url('/img/sample-portrait.jpeg') center center / cover no-repeat $dark;
+  
+}
+.tinting {
+ background-color: $dark;
+    opacity: .75;
+    height: 100%;
+    margin-left: 15px;
 }
 .btn-action {
   background:$secondary-color;
@@ -50,7 +61,7 @@ h3 {
 .fa-hand-o-down {
   text-align:center;
   margin: 0 42.5vw ;
-  color: $quinary-color;
+  color: $quaternary-color;
 }
 
 ul {
@@ -81,6 +92,6 @@ footer{
     font-weight: 400;
 }
 form {
-  color: $quinary-color;
+  color: $secondary-color;
   font-weight:400;
 }

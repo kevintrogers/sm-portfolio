@@ -17,12 +17,21 @@ h3 {
   color: #21FF25;
   font-style: italic; }
 
-#home, #biography, #projects, #contact {
+section {
   background: #282828;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   height: 100vh; }
+
+#home {
+  background: url("/img/sample-portrait.jpeg") center center/cover no-repeat #282828; }
+
+.tinting {
+  background-color: #282828;
+  opacity: .75;
+  height: 100%;
+  margin-left: 15px; }
 
 .btn-action {
   background: #3BCFE8;
@@ -35,7 +44,7 @@ h3 {
 .fa-hand-o-down {
   text-align: center;
   margin: 0 42.5vw;
-  color: #FF7C14; }
+  color: #E8D112; }
 
 ul {
   list-style: none; }
@@ -63,5 +72,5 @@ footer {
   font-weight: 400; }
 
 form {
-  color: #FF7C14;
+  color: #3BCFE8;
   font-weight: 400; }
