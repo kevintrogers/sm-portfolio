@@ -111,6 +111,10 @@ footer{
 form {
   color: $secondary-color;
   font-weight:400;
+  
+}
+textarea {
+  overflow:hidden;
 }
 
 //tooltips
