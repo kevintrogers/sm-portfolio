@@ -5,7 +5,8 @@ body {
 
 h1 {
   color: #3BCFE8;
-  font-weight: 400; }
+  font-weight: 400;
+  opacity: 1.5; }
 
 h2 {
   text-align: center;
@@ -15,23 +16,35 @@ h2 {
 h3 {
   font-weight: 100;
   color: #21FF25;
-  font-style: italic; }
+  font-style: italic;
+  top: 25vh;
+  position: relative; }
 
 section {
   background: #282828;
   color: #fff;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 200;
-  height: 100vh; }
+  height: 85vh; }
 
-#home {
-  background: url("/img/sample-portrait.jpeg") center center/cover no-repeat #282828; }
+#profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  height: 15em;
+  width: 15em;
+  right: 16.666667vw;
+  top: 16.66667vh; }
 
 .tinting {
   background-color: #282828;
   opacity: .75;
   height: 100%;
-  margin-left: 15px; }
+  width: 100vw;
+  overflow: visible; }
+
+#home h6 {
+  padding-top: 25vh;
+  margin-left: 22.5%; }
 
 .btn-action {
   background: #3BCFE8;
@@ -74,3 +87,17 @@ footer {
 form {
   color: #3BCFE8;
   font-weight: 400; }
+
+#home .fa:hover {
+  color: #21FF25;
+  content: 'Learn More'; }
+
+#home .fa:hover:after {
+  color: #21FF25;
+  content: 'Learn More';
+  position: relative;
+  top: 1.4em;
+  right: 3em;
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300; }
