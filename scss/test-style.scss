@@ -10,13 +10,13 @@ $light: #fff;
 $primary-font: 'Work Sans', sans-serif;
 
 
-
-
 body {
   background: $primary-color;
   line-height: 150%;
 }
-
+.container-fluid {
+  margin-top: .8em;
+}
 h1 {
   color: $secondary-color;
   font-weight:400;
@@ -110,6 +110,8 @@ footer{
 form {
   color: $secondary-color;
   font-weight:400;
+  padding-bottom:2em;
+  margin: .8em;
   
 }
 textarea {

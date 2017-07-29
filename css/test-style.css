@@ -3,6 +3,9 @@ body {
   background: #4614FF;
   line-height: 150%; }
 
+.container-fluid {
+  margin-top: .8em; }
+
 h1 {
   color: #3BCFE8;
   font-weight: 400;
@@ -87,7 +90,9 @@ footer {
 
 form {
   color: #3BCFE8;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-bottom: 2em;
+  margin: .8em; }
 
 textarea {
   overflow: hidden; }
