@@ -82,7 +82,6 @@ section {
   margin: 0 42.5vw ;
   color: $quaternary-color;
 }
-
 ul {
   list-style:none;
 }
@@ -94,10 +93,7 @@ ul {
   padding-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
-  
 }
- 
-
 #projects a:hover {
   text-decoration: none;
   color: $light;
@@ -109,9 +105,12 @@ ul {
   margin-top: 2.25em;
 }
 span.title{
-  display: inherit;
-  padding-top: 1.75em;
+  display: inline-block;
   color: $light;
+  font-weight:500;
+  width:7em;
+  padding:0;
+  margin:0;
 }
 #contact {
   padding-top:2em;
