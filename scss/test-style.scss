@@ -9,6 +9,9 @@ $dark: #282828;
 $light: #fff;
 $primary-font: 'Work Sans', sans-serif;
 
+#biography {
+  display:none;
+}
 
 body {
   background: $primary-color;
@@ -84,14 +87,20 @@ ul {
   list-style:none;
 }
 #projects ul {
-  margin-bottom: 1.5em;
+   margin-bottom: 1.5em;
 }
 #projects li {
   text-align:center;
   padding-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
-#projects li a {
+ 
 
+#projects a:hover {
+  text-decoration: none;
+  color: $light;
 }
 .circle {
   border-radius:50%;
@@ -100,19 +109,17 @@ ul {
   margin-top: 2.25em;
 }
 span.title{
-  position: relative;
-  top: 1.75em;
+  display: inherit;
+  padding-top: 1.75em;
+  color: $light;
 }
-
-footer{
-    position: relative;
-    font-weight: 400;
+#contact {
+  padding-top:2em;
 }
 form {
   color: $secondary-color;
   font-weight:400;
   padding-bottom:2em;
-  margin: .8em;
   
 }
 textarea {
@@ -135,10 +142,10 @@ textarea {
   font-size: 80%;
 }
 #home .fa:hover:after {
-  content: 'Learn More...';
+  content: 'See My Work...';
   position:relative;
   color: $tertiary-color;
-  display:inline-block ;
+  display:inline-block;
   width: 12em;
     top:1.4em;
     right:6em;
@@ -148,11 +155,19 @@ textarea {
   content: 'See My Work...';
   position:relative;
   color: $tertiary-color;
+  display:inline-block;
+  width: 12em;
     top:1.4em;
+    right:6em;
 }
+
 #projects .fa:hover:after {
-  content: 'Talk To Me...';
+  content: 'Send Me a Message...';
   position:relative;
   color: $tertiary-color;
-    top:1.4em;
+  display:inline-block;
+  width: 12em;
+  top:1.4em;
+  right:6em;
+
 }

@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,500");
+#biography {
+  display: none; }
+
 body {
   background: #4614FF;
   line-height: 150%; }
@@ -71,7 +74,13 @@ ul {
 
 #projects li {
   text-align: center;
-  padding-bottom: 1.5em; }
+  padding-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto; }
+
+#projects a:hover {
+  text-decoration: none;
+  color: #fff; }
 
 .circle {
   border-radius: 50%;
@@ -80,18 +89,17 @@ ul {
   margin-top: 2.25em; }
 
 span.title {
-  position: relative;
-  top: 1.75em; }
+  display: inherit;
+  padding-top: 1.75em;
+  color: #fff; }
 
-footer {
-  position: relative;
-  font-weight: 400; }
+#contact {
+  padding-top: 2em; }
 
 form {
   color: #3BCFE8;
   font-weight: 400;
-  padding-bottom: 2em;
-  margin: .8em; }
+  padding-bottom: 2em; }
 
 textarea {
   overflow: hidden; }
@@ -108,7 +116,7 @@ textarea {
   font-size: 80%; }
 
 #home .fa:hover:after {
-  content: 'Learn More...';
+  content: 'See My Work...';
   position: relative;
   color: #21FF25;
   display: inline-block;
@@ -120,10 +128,16 @@ textarea {
   content: 'See My Work...';
   position: relative;
   color: #21FF25;
-  top: 1.4em; }
+  display: inline-block;
+  width: 12em;
+  top: 1.4em;
+  right: 6em; }
 
 #projects .fa:hover:after {
-  content: 'Talk To Me...';
+  content: 'Send Me a Message...';
   position: relative;
   color: #21FF25;
-  top: 1.4em; }
+  display: inline-block;
+  width: 12em;
+  top: 1.4em;
+  right: 6em; }

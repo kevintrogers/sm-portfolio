@@ -78,16 +78,18 @@
           <div class='row'>
             <ul v-for='project in projects'>
               <li class='col col-10 offset-1 col-sm-3 offset-sm-1'>
-                <a :href='project.url '><img :src='project.img' class='circle'></a>
-               
-                <span class='title'>{{ project.title }}</span>
+                <a :href='project.url '>
+                  <img :src='project.img' class='circle'>
                 
+
+                  <span class='title'>{{ project.title }}</span>
+                </a>
               </li>
             </ul>
             
-            <div class='row'>
+            
               <a href='#contact' type='link'><i class="fa fa-hand-o-down" aria-hidden="true"></i></a>
-              </div>
+             
           </div>
      
         </section>
