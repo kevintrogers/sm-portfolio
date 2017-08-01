@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,500');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,500| Helvetica');
 
-$primary-color:#4614FF;
-$secondary-color:#3BCFE8;
-$tertiary-color:#21FF25;
-$quaternary-color:#E8D112;
-$quinary-color:#FF7C14;
+$primary-color:#FF7C00;
+$secondary-color:#FF8919;
+$tertiary-color:#FFE000;
+$quaternary-color:#008DB2;
+$quinary-color:#00F1B2;
 $dark: #282828;
 $light: #fff;
 $primary-font: 'Work Sans', sans-serif;
@@ -14,29 +14,46 @@ $primary-font: 'Work Sans', sans-serif;
 }
 
 body {
-  background: $primary-color;
+  background: $quaternary-color;
   line-height: 150%;
 }
 .container-fluid {
   margin-top: .8em;
 }
 h1 {
-  color: $secondary-color;
+  color: $quinary-color;
   font-weight:400;
   opacity: 1.5;
-  
-  
 }
 h2{
   text-align:center;
-  color: $secondary-color;
+  color: $quinary-color;
   font-weight:500;
 }
 h3 {
   font-weight: 100;
-  color: $tertiary-color;
+  color: $primary-color;
   font-style: italic;
   position:relative;
+}
+h6{
+  color: $primary-color;
+}
+#personal-logo {
+  position:absolute;
+  color: $primary-color;
+  font-variant: small-caps;
+  font-weight:500;
+  height:1.45em;
+  width:1.45em;
+  padding: 0;
+   font-size:2em;
+  border: 3px solid $tertiary-color;
+  
+  margin: .5em;
+  padding-top: .25em;
+  padding-left:.075em;
+  
 }
 section {
   background:$dark;
@@ -57,7 +74,7 @@ section {
 }
 .tinting {
   position:relative;
- background-color: $dark;
+ background-color: transparent;
     opacity: .75;
     height: 100%;
     width: 90vw;
@@ -80,7 +97,7 @@ section {
 .fa-hand-o-down {
   text-align:center;
   margin: 0 42.5vw ;
-  color: $quaternary-color;
+  color: $tertiary-color;
 }
 ul {
   list-style:none;
@@ -116,7 +133,7 @@ span.title{
   padding-top:2em;
 }
 form {
-  color: $secondary-color;
+  color: $quinary-color;
   font-weight:400;
   padding-bottom:2em;
   
