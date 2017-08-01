@@ -78,8 +78,8 @@
           <div class='row'>
             <ul v-for='project in projects'>
               <li class='col col-10 offset-1 col-sm-3 offset-sm-0'>
-                <a :href='project.url '>
-                  <img :src='project.img' class='circle'>
+                <a :href='project.link '>
+                  <img :src='project.screenshot' class='circle'>
                 
 
                   <span class='title'>{{ project.title }}</span>
@@ -96,8 +96,8 @@
         <section id='contact'>
           <form class='col-10 offset-1 col-md-6 offset-md-3'>
             <div class='form-group'>
-                  <label for="form-name">Name</label>
-                  <input type="text" class="form-control" id="form-name">
+                  <label for="contact-form">Name</label>
+                  <input type="text" class="form-control" id="contact-form">
             <div class="form-check">
               <label class="form-check-label">
                 <input class="form-check-input" type="checkbox" value="phone">
@@ -112,18 +112,18 @@
           </div>
             
             <div class='form-group'>
-                  <label for="form-name">Email</label>
-                  <input type="email" class="form-control" id="form-name">
+                  <label for="contact-form">Email</label>
+                  <input type="email" class="form-control" id="contact-form">
             </div>
             
             <div class='form-group'>
-                  <label for="form-name">Telephone Number</label>
-                  <input type="telephone" class="form-control" id="form-name">
+                  <label for="contact-form">Telephone Number</label>
+                  <input type="telephone" class="form-control" id="contact-form">
             </div>
             
             <div class='form-group'>
-                  <label for="form-name">Message</label>
-                  <textarea type="message" rows="6" class="form-control" id="form-name">
+                  <label for="contact-form">Message</label>
+                  <textarea type="message" rows="6" class="form-control" id="contact-form">
                   </textarea>
             </div>
           </form>
