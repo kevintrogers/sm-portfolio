@@ -111,12 +111,19 @@ textarea {
   content: 'Learn More...';
   position: relative;
   color: #21FF25;
-  display: inline !important;
-  top: 1.4em; }
+  display: inline-block;
+  width: 12em;
+  top: 1.4em;
+  right: 6em; }
 
 #biography .fa:hover:after {
   content: 'See My Work...';
   position: relative;
   color: #21FF25;
-  top: 1.4em;
-  right: 6em; }
+  top: 1.4em; }
+
+#projects .fa:hover:after {
+  content: 'Talk To Me...';
+  position: relative;
+  color: #21FF25;
+  top: 1.4em; }

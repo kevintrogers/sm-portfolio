@@ -138,9 +138,10 @@ textarea {
   content: 'Learn More...';
   position:relative;
   color: $tertiary-color;
-  display:inline !important;
+  display:inline-block ;
+  width: 12em;
     top:1.4em;
-   
+    right:6em;
 
 }
 #biography .fa:hover:after {
@@ -148,6 +149,10 @@ textarea {
   position:relative;
   color: $tertiary-color;
     top:1.4em;
-    right: 6em;
-
+}
+#projects .fa:hover:after {
+  content: 'Talk To Me...';
+  position:relative;
+  color: $tertiary-color;
+    top:1.4em;
 }
