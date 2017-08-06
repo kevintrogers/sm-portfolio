@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,500| Helvetica");
-#biography {
-  display: none; }
-
 body {
   background: #008DB2;
   line-height: 150%; }
+
+#home {
+  background: linear-gradient(to bottom, rgba(40, 40, 40, 0.5), #282828);
+  color: #fff; }
 
 .container-fluid {
   margin-top: .8em; }
@@ -43,10 +44,10 @@ h6 {
   padding-left: .075em; }
 
 section {
-  background: #282828;
-  color: #fff;
+  background: #fff;
+  color: #282828;
   font-family: "Work Sans", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   min-height: 85vh;
   height: auto; }
 

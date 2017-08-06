@@ -5,17 +5,19 @@ $secondary-color:#FF8919;
 $tertiary-color:#FFE000;
 $quaternary-color:#008DB2;
 $quinary-color:#00F1B2;
-$dark: #282828;
+$dark: rgba(40,40,40, 1.0);
 $light: #fff;
 $primary-font: 'Work Sans', sans-serif;
 
-#biography {
-  display:none;
-}
+
 
 body {
   background: $quaternary-color;
   line-height: 150%;
+}
+#home {
+  background: linear-gradient(to bottom, rgba(40,40,40, 0.5) , $dark);
+  color: $light;
 }
 .container-fluid {
   margin-top: .8em;
@@ -56,10 +58,10 @@ h6{
   
 }
 section {
-  background:$dark;
-  color: $light;
+  background:$light;
+  color: $dark;
   font-family: $primary-font;
-  font-weight:200;
+  font-weight:300;
   min-height: 85vh;
   height: auto;
   
