@@ -4,8 +4,9 @@ body {
   line-height: 150%; }
 
 #home {
-  background: linear-gradient(to bottom, rgba(40, 40, 40, 0.65), #282828);
-  color: #fff; }
+  background: linear-gradient(to bottom, rgba(40, 40, 40, 0.15), #282828);
+  color: #fff;
+  opacity: 1.5; }
 
 .container-fluid {
   margin-top: .8em; }
@@ -59,14 +60,6 @@ section {
   right: 10vw;
   top: 10vh; }
 
-.tinting {
-  position: relative;
-  background-color: transparent;
-  opacity: .75;
-  height: 100%;
-  width: 90vw;
-  overflow: visible; }
-
 #home h6 {
   padding-top: 25vh;
   margin-left: 22.5%; }
@@ -85,7 +78,7 @@ section {
   color: #FFE000; }
 
 #home .fa-hand-o-down {
-  padding-top: 25vh; }
+  padding-top: 15vh; }
 
 ul {
   list-style: none; }

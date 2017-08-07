@@ -7,16 +7,14 @@ $pupil-color: #000;
 $nose-color: #eebb99;
 $lip-color: #CCA083;
 $teeth-color: #fff;
-$undershirt-color:#f5f5f5;
-$collar-color: #0d47a1;
-$shirt-color:#448aff;
+
 
 @keyframes lookDown {
     from {
         top:25%;
         
     } to {
-        top:37.5%;
+        top:57.5%;
         
     }
     
@@ -32,9 +30,10 @@ $shirt-color:#448aff;
     z-index:-1;
     float:none;
     background: #fff;
-    left: 20%;
-    left: 12.5%;
+    float:right;
+    left: 40%;
     margin-top: 1em;
+
 }
 .head {
   position: absolute;
@@ -49,12 +48,12 @@ $shirt-color:#448aff;
   }
  
  
- .head:hover .iris  {
+ #personal-logo:hover .iris  {
      animation: lookDown .3s forwards} 
-  .head:hover .teeth {
+  #profile-pic:hover .teeth {
       display: none;
   }
-  .head:hover .glasses, .head:hover .lower-lip, .head:hover .upper-lip {
+  #personal-logo:hover .glasses, #profile-pic:hover .lower-lip, #profile-pic::hover .upper-lip {
       display:block;
   }
   .hair-left {
