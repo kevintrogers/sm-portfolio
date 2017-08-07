@@ -21,9 +21,9 @@ $teeth-color: #fff;
 }
 
 #profile-pic {
-    position:rlative;
+    position:absolute;
     height:15em;
-    width:15emx;
+    width:15em;
     border-radius: 50%;
     margin:auto;
     display:block;
@@ -31,6 +31,7 @@ $teeth-color: #fff;
     float:none;
     background: #fff;
     float:right;
+    top: 10vh;
     left: 50%;
     margin-top: 1em;
 
@@ -48,12 +49,12 @@ $teeth-color: #fff;
   }
  
  
- #personal-logo:hover .iris  {
+ #profile-pic:hover .iris  {
      animation: lookDown .3s forwards} 
   #profile-pic:hover .teeth {
       display: none;
   }
-  #personal-logo:hover .glasses, #profile-pic:hover .lower-lip, #profile-pic::hover .upper-lip {
+  #profile-pic:hover .glasses, #profile-pic:hover .lower-lip, #profile-pic::hover .upper-lip {
       display:block;
   }
   .hair-left {
