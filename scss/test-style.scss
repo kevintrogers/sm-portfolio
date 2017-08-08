@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,500| Helvetica');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,500');
 
 $primary-color:#FF7C00;
 $secondary-color:#FF8919;
@@ -125,6 +125,7 @@ span.title{
 }
 #contact {
   padding-top:2em;
+  background: $quinary-color;
 }
 form {
   color: $dark;
@@ -132,8 +133,11 @@ form {
   padding-bottom:2em;
   
 }
-input#contact-form, textarea#contact-form, #contact-form.form-check-input {
-  border: 1px solid $quaternary-color;
+label {
+  font-family: 'Work Sans';
+  font-weight: 300;
+  font-style: italic;
+  
 }
 textarea {
   overflow:hidden;

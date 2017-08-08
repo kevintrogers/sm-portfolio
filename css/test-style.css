@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,500| Helvetica");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,500");
 body {
   background: #008DB2;
   line-height: 150%; }
@@ -104,15 +104,18 @@ span.title {
   margin: 0; }
 
 #contact {
-  padding-top: 2em; }
+  padding-top: 2em;
+  background: #00F1B2; }
 
 form {
   color: #282828;
   font-weight: 400;
   padding-bottom: 2em; }
 
-input#contact-form, textarea#contact-form, #contact-form.form-check-input {
-  border: 1px solid #008DB2; }
+label {
+  font-family: 'Work Sans';
+  font-weight: 300;
+  font-style: italic; }
 
 textarea {
   overflow: hidden; }
