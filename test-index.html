@@ -90,12 +90,20 @@
           <div class='row'>
             <ul v-for='project in projects'>
               <li class='col col-10 offset-1 col-sm-3 offset-sm-0'>
-                <a :href='project.link '>
-                  <img :src='project.screenshot' class='circle'>
-                
+                <div class="card">
+                  <a :href='project.link'>
+                    <h3 class="card-header">{{ project.title }}</h3>
+                  </a>
+                  <img class="card-img-top" :src='project.screenshot' alt="project.alt">
+                    <div class="card-block">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a :href='project.link' class="btn btn-primary">See Project</a>
+                    </div>
+                  </div>
+                </div>
 
-                  <span class='title'>{{ project.title }}</span>
-                </a>
+                 
+                
               </li>
             </ul>
             

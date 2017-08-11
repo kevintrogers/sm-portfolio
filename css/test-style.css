@@ -91,8 +91,10 @@ ul {
 
 .circle {
   border-radius: 50%;
-  width: 15em;
-  height: 15em;
+  height: 100%;
+  width: 100%;
+  max-width: 15em;
+  max-height: 15em;
   margin-top: 2.25em; }
 
 span.title {
