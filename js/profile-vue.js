@@ -6,14 +6,6 @@
     projects: [ 
 
         {
-            title:'Black Gold Golf',
-            link:'http://blackgoldgolf.com/',
-            screenshot:'img/black-gold-screenshot.png',
-            description:'Website for Back Gold Golf that I helped build at GreatLike Media',
-            technology:'Word Press, HTML, CSS, Photoshop, Bootstrap, FTP'
-            
-        },
-        {
             title:'Team First Basketball',
             link:'http://teamfirstbasketball.com/',
             screenshot:'img/team-first-screenshot.PNG',
@@ -31,7 +23,7 @@
             title:'Local Weather App',
             link:'http://codepen.io/MonkeyMaker/full/EVyNxJ',
             screenshot:'img/local-weather-app-screenshot.png',
-            description:'This app tells you the weather conditions in you favorite zip code.',
+            description:'This app tells you the weather conditions in your favorite zip code.',
             technology: 'Material Design, HTML, CSS, Javascript, JQuery, Weather Underground API'
         },
                 {

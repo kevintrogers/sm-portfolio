@@ -77,15 +77,17 @@ ul {
   list-style: none; }
 
 #projects ul {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+  display: inline; }
 
 #projects li {
+  display: inline-block;
   margin: .75em auto; }
 
 #projects li .card {
   margin-bottom: .65em;
-  width: 15em;
-  min-height: 30em; }
+  height: 35em;
+  width: 22.5em; }
 
 #projects a:hover {
   text-decoration: none;
@@ -93,6 +95,10 @@ ul {
 
 .card-image-top {
   width: 100%; }
+
+.card-block {
+  position: absolute;
+  bottom: 0; }
 
 span.title {
   display: inline-block;
