@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,500");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,400i,500");
 body {
   background: #008DB2;
   line-height: 150%; }
@@ -119,7 +119,6 @@ form {
 
 label {
   font-family: 'Work Sans';
-  font-weight: 300;
   font-style: italic; }
 
 textarea {
