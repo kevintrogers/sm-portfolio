@@ -35,7 +35,7 @@ h2{
   font-weight:500;
 }
 h3 {
-  font-weight: 100;
+  font-weight: 300;
   color: $primary-color;
   font-style: italic;
   position:relative;
@@ -83,7 +83,7 @@ h6{
 }
 
 #contact #social-links li {
- padding: .35em 1.15em; 
+ padding: .35em .65em; 
 }
 #contact #social-links i {
   color: $dark;
@@ -131,9 +131,7 @@ ul {
    display:inline;
 }
 #projects li {
-  display:inline-block;
-
-  margin: .75em auto;
+  display:inline-flex;
 }
 #projects li .card {
   margin-bottom: .65em;
