@@ -47,16 +47,29 @@ h6 {
 
 #social-links {
   position: absolute;
-  top: 1.25em;
-  right: 2.5em;
   display: inline; }
 
-#social-links li {
-  display: inline-block;
-  padding: 0 .35em; }
+#home #social-links {
+  top: 1.25em;
+  right: 2.5em; }
 
-#social-links i {
+#social-links li {
+  display: inline-block; }
+
+#home #social-links li {
+  padding: 1em .35em; }
+
+#home #social-links i {
   color: #fff; }
+
+#contact #social-links {
+  left: 5%; }
+
+#contact #social-links li {
+  padding: .35em 1.15em; }
+
+#contact #social-links i {
+  color: #282828; }
 
 section {
   background: #fff;
