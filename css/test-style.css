@@ -46,11 +46,17 @@ h6 {
   padding-left: .075em; }
 
 #social-links {
+  position: absolute;
+  top: 1.25em;
+  right: 2.5em;
   display: inline; }
 
 #social-links li {
   display: inline-block;
-  float: right; }
+  padding: 0 .35em; }
+
+#social-links i {
+  color: #fff; }
 
 section {
   background: #fff;
