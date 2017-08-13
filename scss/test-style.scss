@@ -60,6 +60,14 @@ h6{
   padding-left:.075em;
   
 }
+#social-links {
+  display: inline;
+  
+}
+#social-links li {
+  display:inline-block;
+  float: right;
+}
 section {
   background:$light;
   color: $dark;
@@ -163,7 +171,7 @@ textarea {
   font-weight: 300;
   font-size: 80%;
 }
-#home .fa:hover:after {
+#home .fa-hand-o-down:hover:after {
   content: 'See My Work...';
   position:relative;
   color: $tertiary-color;
@@ -173,7 +181,7 @@ textarea {
   right: 6em;
 
 }
-#biography .fa:hover:after {
+#biography .fa-hand-o-down:hover:after {
   content: 'See My Work...';
   position:relative;
   color: $tertiary-color;
@@ -183,7 +191,7 @@ textarea {
     right:6em;
 }
 
-#projects .fa:hover:after {
+#projects .fa-hand-o-down:hover:after {
   content: 'Send Me a Message...';
   position:relative;
   color: $tertiary-color;

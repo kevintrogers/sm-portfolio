@@ -14,7 +14,7 @@ var socialLinks = new Vue({
             link:'https://codepen.io/MonkeyMaker/'
         },
         {
-            title:'Facebook',
+            title:'Faceboo',
             icon: "<i class='fa fa-facebook' aria-hidden='true'></i>",
             link:'https://www.facebook.com/spicymonkeymedia'
         },
