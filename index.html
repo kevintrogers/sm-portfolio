@@ -1,85 +1,50 @@
-  <!DOCTYPE html>
+ <!DOCTYPE html>
   <html>
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-                          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+                          
  <!-- Compiled and minified CSS -->
 
 
 <link rel="icon" type="image/ico" href="images/favicon.ico">
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">  <script src="app.js"></script>
-
-
-
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"> 
   <link rel="styleSheet" href="css/style.css" type="text/css" media="screen">
-  <!--<link rel="styleSheet" href="css/pic.css" type="text/css" media="screen">-->
-    <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link rel="styleSheet" href="css/pic.css" type="text/css" media="screen">
+  <link rel="styleSheet" href="css/font-awesome.css" type="text/css" media="screen">
+  <!--  [if lt IE 9]>-->
+  <!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+  <!--<![endif]-->
 
 
     </head>
 
-    <body ng-app="app" ng-controller="ProfileController as main" class='cyan lighten-5'>
-        <nav class="grey darken-4 flow-text">
+    <body>
+      <div class='container-fluid'>
+        
+        <section id='home'>
+          <div class='row first-row'>
+          <div id='personal-logo'>Kr</div>
           
-    <div class="nav-wrapper center">
-      
-        <ul id="nav-mobile">
-          
-        <li ng-repeat="page in main.pages">
-          <a class='hide-on-small-only' href='{{page.link}}'>
-            <span></span> {{page.title}}</span>
-            </a>
-             
-            </li>
-          <li><a href="#" class="center dropdown-button" data-activates='dropdown-menu'><i class="large material-icons hide-on-med-and-up">view_headline</i>
-             </a></li>
-      </ul>
-    </div>
-
-  </nav>
-      <section id='home'>
-
-    <div class='row center'>
-      <div id='ellipse'>
-        <div class='adjustable brandmonkey'>
-         <a href="#" class="nav_logo brand-logo center">
-           <span class='span-left'>Spicy</span>
-           <img class='center' src="spicymonkey_logo.svg" onerror="this.src='spicymonkey_logo.png'" alt="Spicy Monkey Media Logo">
-           <span class='span-right'>Monkey</span></a>
-         </div>
-       </div>
-     </div>
-         <ul id='dropdown-menu' class='dropdown-content hide-on-med-and-up'>
-    <li ng-repeat="page in main.pages">
-      <a href='{{page.link}}'>{{page.title}}</a>
-    </li>
-
-            
-     </ul>
-       </div
-       <div class='row'>
-      <ul class="col social-media-links center s12 l10 offset-l1">
-
-        <li ng-repeat="media in main.social_media" class="col s6 l1 offset-l1 center" >
-
-            <a class="" href="{{media.link}}"><span class="flow-text">{{media.title}}</span></a>
-
-          </li>
-    <body ng-app="app" ng-controller="MainController as main">
-       
-
-
-
-      </section>
-      <div class="container">
-    <section id='about'>
-       <div class="center"><h2>About</h2></div>
-
-        <div id="contact_image">
-	<div class='box circle'>
+              <ul id='social-links'>
+                <li>
+                  <a href='https://github.com/kevintrogers'><i class='fa fa-github-alt' aria-hidden='true'></i></a>
+                </li>
+                <li>
+                  <a href='https://codepen.io/MonkeyMaker'><i class='fa fa-codepen' aria-hidden='true'></i></a>
+                </li>
+                <!--<li>-->
+                <!--  <a href='https://www.facebook.com/spicymonkeymedia'><i class='fa fa-facebook' aria-hidden='true'></i></a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a href='https://twitter.com/spicymonkymedia'><i class='fa fa-twitter' aria-hidden='true'></i></a>-->
+                <!--</li>-->
+                <li>
+                  <a href='https://www.linkedin.com/profile/view?id=AAIAAAmBUKoBdbOrqAwzQRxcyyy6wp_9xl90TVk&trk=nav_responsive_tab_profile'><i class='fa fa-linkedin' aria-hidden='true'></i></a>
+                </li>
+              </ul>
+            </div>
+          <div class='box' id='profile-pic' >
 		<div class='head'>
 
 				<div class='hair-left'></div>
@@ -111,165 +76,122 @@
 			</div>
 		</div>
 	</div>
-  
-<div class='row'>
-      <article class='about_text flow-text col s10 offset-s1 m8 offset-m2'>
-       <p> Spicy Monkey Media is a digital media agency specializing in creating an online presence for small and medium-sized businesses using Word Press, Angular JS, and Meteor JS. We create custom sites based on the needs of a business.
-</p><p>
-Our services include: SEO, graphic design, and website and application development.
-</p>
-<p>
-If you are interested in discussing how Spicy Monkey Media can help your business boost it's online presence, send us a message and we'll be in touch.
- </p>       
+	
 
-      </article>
-      </div>
-      </div>
-      </div>
-      </section>
-      <section id='portfolio' class='grey lighten-3'>
-      <div class="center"><h2>Portfolio</h2></div>
-      <div class='row'>
-      <div class='col s12 l10 offset-l1 center'>
-      <ul id="portfolio-list center" >
-        <li ng-repeat="project in main.projects" class= 'col s10 offset-s1 l4'>  
-        <div class="card hoverable">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src='{{ project.screenshot }}' >
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">{{project.title}}<i class="material-icons right">more_vert</i></span>
-      <p><a href="{{ project.link }}">See Project</a></p>
-
-  
-
-    
-    <div class="card-reveal">
-
-      <span class="card-title black-text ">{{ projects.title }}<i class="material-icons right">close</i></span>
-      <p class="technology"><strong>Description:</strong><br><span>{{ project.description }}</span></p>
-      <p class="technology"><strong>Technologies Used:</strong><br><span>{{ project.technology }}</span></p>
-    </div>
-  </div>
-  
-  </li>
-      </ul>
-      </div>
-      </div>
-      </section>
-
-<div class="row">
-        <div class="center">
-          <h2>Contact</h2></div>
-        </div>
-      <section id='contact'>
-
-        
-        
-          <div class="row">
-    <form class="col s10 offset-s1 l10 offset-l1 hoverable teal lighten-4"   action="mailto:kevin_t_rogers@hotmail.com, kevin@spicymonkeymedia.com"
-  method="POST"
-  enctype="multipart/form-data"
-  name="ContacttForm">
-
-
-      </div>
-      
-      
-    </div>
-    
-    
-  </div>
-  </section>
-  <section id='contact'>
-    
-
-<!--<div class='box'>-->
-<!--    <a id='box-btn' ><div class='box-top'><span class='big-action'>Click Here to Send Me a Pizza</span><br>-->
-<!--    <span class='small-action'>(Or a Message...)</span></div></a>-->
-<!--    <div class='box-message'></div>-->
-<!--    <div class='box-outside'></div>-->
-<!--    <div class='box-inside'></div>-->
-<!--    <div class='box-back'></div>-->
-<!--    <div class='box-bottom'>-->
-<!--    <div class='box-front'><span class='pizza-title'>Spicy Monkey Pizza</span><div class='pizza-logo'></div></div>-->
-       
-<!--    </div>-->
-<div class='box-form'>
-<div class="row">
-    <form class="col s12 m10 offset-m1">
-
-        <div class="input-field col s10 offset-s1 l4 offset-l1">
-
-          <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">First Name</label>
-        </div>
-
+            <div class='row'>
+              <h6>Old Soul. Modern Design.</h6>
+            </div>
+            
+            
+            <div class='row'>
+              <h1 class='col-8 offset-2'> I build with code.</h1>
+            </div>
+            
+            <div class='row'>
+              <p class='col-8 offset-2'>I am a front end engineer with a passion for high quality, 
+              functional design.</p>
+              <p class='col-8 offset-2'>I work with Materialize, Bootstrap, and Vue JS. My portfolio
+              also inlcudes Meteor, Word Press, and Angular Projects</p>
+            </div>
+            
+            
+            <div class='row'>
+               <a href='#projects' type='link'><i class="fa fa-hand-o-down" aria-hidden="true"></i></a>
+            </div>
         
 
-        <div class="input-field col s10 offset-s1 l4 offset-l2">
+        </section>
 
-          <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Telephone</label>
-        </div>
-      </div>
-
-
-
-            <div class="row">
-        <div class="input-field col s10 offset-s1 l4 offset-l1">
-
-          <i class="material-icons prefix">email</i>
-          <input id="email" type="email" class="validate">
-          <label for="email" data-error="wrong" data-success="right">Email</label>
-        </div>
-        </div>
-
-      <div class="row">
-        <div class="input-field col s10 offset-s1">
-          <i class="material-icons prefix">message</i>
-          <textarea id="textarea1" rows='1' class="materialize-textarea"></textarea>
-          <label for="textarea1">Message</label>
-
-      </div>
-      
-
-
-      <button class="col offset-s4 s4 offset-m5 m2 btn btn-flat blue accent-2"  type="submit" name="action">Send</button>
-
-    </form>
-
-</div>
-</div>
-      </section>
-      
-
-
-  
+          
+        </section>
+        <section id='projects'>
+          <h2>Some Recent Projects</h2>
+          
+          <div class='row'>
+            <ul class='col col-sm-10 offset-sm-1' >
+              <li v-for='project in projects' class='col col-12 col-md-4'>
+                <div class="card">
+                  <div class='card-header'>
+                    <h3>{{ project.title }}</h3>
+                  </div>
+                  <a :href='project.link'>
+                    <img class="card-image-top" :src='project.screenshot' alt="project.alt">
+                  </a>
+                    <div class="card-block">
+                        <p class="card-text">{{project.description}}</p>
+                      <a :href='project.link' class="btn btn-project">See Project</a>
+                    </div>
+                  
+                </div>
+              </li>
+            </ul>
+            
+            
+            
+              <a href='#contact' type='link'><i class="fa fa-hand-o-down" aria-hidden="true"></i></a>
+             
+          </div>
+     
+        </section>
+        <section id='contact'>
+          <form class='col-10 offset-1 col-md-6 offset-md-3'>
+            <div class='form-group'>
+                  <label for="contact-form">Name</label>
+                  <input type="text" class="form-control" id="contact-form">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" value="phone">
+                I prefer to be contacted by phone
+              </label>
+            </div>
+            <div class="form-check ">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" value="email" >
+                I prefer to be contacted by email
+              </label>
+          </div>
+            
+            <div class='form-group'>
+                  <label for="contact-form">Email</label>
+                  <input type="email" class="form-control" id="contact-form">
+            </div>
+            
+            <div class='form-group'>
+                  <label for="contact-form">Telephone Number</label>
+                  <input type="telephone" class="form-control" id="contact-form">
+            </div>
+            
+            <div class='form-group'>
+                  <label for="contact-form">Message</label>
+                  <textarea type="message" rows="6" class="form-control" id="contact-form">
+                  </textarea>
+            </div>
+          </form>
+             <ul id='social-links'>
+              <li>
+                <a href='https://github.com/kevintrogers'><i class='fa fa-github-alt' aria-hidden='true'></i></a>
+              </li>
+              <li>
+                <a href='https://codepen.io/MonkeyMaker'><i class='fa fa-codepen' aria-hidden='true'></i></a>
+              </li>
+              <!--<li>-->
+              <!--  <a href='https://www.facebook.com/spicymonkeymedia'><i class='fa fa-facebook' aria-hidden='true'></i></a>-->
+              <!--</li>-->
+              <!--<li>-->
+              <!--  <a href='https://twitter.com/spicymonkymedia'><i class='fa fa-twitter' aria-hidden='true'></i></a>-->
+              <!--</li>-->
+              <li>
+                <a href='https://www.linkedin.com/profile/view?id=AAIAAAmBUKoBdbOrqAwzQRxcyyy6wp_9xl90TVk&trk=nav_responsive_tab_profile'><i class='fa fa-linkedin' aria-hidden='true'></i></a>
+              </li>
+            </ul>
+        </section>
+        </div> 
+    </div>
     </body>
-      <footer class="@ flow-text">
-
-<div class="footer-copyright col s12 grey darken-4"> 
-      <div class="col s5 offset-s1 m4 offset-m2">&copy; 2017 <a href="http://spicymonkeymedia.com/#home"> Spicy Monkey Media.</a>
-      </div>
-
-  </footer>
-
-
-  <footer>
-</footer>
-  </body>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
- 
-
 
     
-          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
-    <script src="app.js"></script>
-    <script src="profile.ctrl.js"></script>
+    <script src="/js/vue.js"></script>
+    <script src="/js/profile-vue.js"></script>
     <script src="script.js"></script>
  
   </html>

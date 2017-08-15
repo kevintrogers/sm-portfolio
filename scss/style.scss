@@ -1,280 +1,226 @@
-@import url(https://fonts.googleapis.com/css?family=Yellowtail|Montserrat|Oswald:400|700);
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400i,500');
 
-$primary-color: orange;
-$secondary-color: #505050;
-$tertiary-color: #808080;
-$quaternary-color: #2C6A79;
-$quinary-color: #fff;
-$shadow-color: 2px 2px 2px red;
-$spin: 324;
-$spin-time: 4.4s;
-$spin-size: .2em;
+$primary-color:#FF7C00;
+$secondary-color:#FF8919;
+$tertiary-color:#FFE000;
+$quaternary-color:#008DB2;
+$quinary-color:#00F1B2;
+$dark: #282828;
+$light: #fff;
+$primary-font: 'Work Sans', sans-serif;
 
-$title-font: 'Yellowtail', cursive; 
-$serif-font: 'Lato', sans-serif;
-$sans-font: 'Montserrat', sans-serif;
 
-html, body {
-  width:100%;  
-  overflow-x: hidden;
+
+body {
+  background: $quaternary-color;
+  line-height: 150%;
 }
-
-@keyframes brandmonkey {
- from {
-	transform: rotate($spin * 0deg);
-
-	font-size: .1 * $spin-size;
-
-
-
+#home {
+  background: linear-gradient(to bottom, rgba(40,40,40, 0.0) , rgba(40,40,40, 0.75));
+  color: $light;
+  opacity:1.5;
 }
-to {
-    transform: rotate($spin * 20deg);
-    font-size: 10/2 * $spin-size;
- 
+.container-fluid {
+  margin-top: .8em;
 }
-     
-} 
-
-.brandmonkey {
-    padding-top: 3em;
-          animation-name: brandmonkey;
-  animation-duration: $spin-time;
+h1 {
+  color: $quinary-color;
+  font-weight:400;
+  opacity: 1.5;
   
 }
-nav{
-    position: fixed;
-    z-index: 4;
-    color: $primary-color;
-    font-family: $sans-font;
-    box-shadow: none;
-    
-}
-#dropdown-menu{
-    left: 7.5% !important;
-    width: 85% !important;
-    overflow:hidden;
-}
-#dropdown-menu li a {
-    text-align:center;
-    margin-top:.2em !important;
-  margin-bottom: .1em !important;
-    
-}
-#dropdown-menu li {
+h2{
   text-align:center;
-  margin-top:.2em !important;
-  margin-bottom: .1em !important;
+  color: $quinary-color;
+  font-weight:500;
+}
+h3 {
+  font-weight: 300;
+  color: $primary-color;
+  font-style: italic;
+  position:relative;
+  
+}
+h6{
+  color: $primary-color;
+  z-index:1;
+}
+#personal-logo {
+  position:absolute;
+  color: $primary-color;
+  font-variant: small-caps;
+  font-weight:500;
+  height:1.45em;
+  width:1.45em;
+  padding: 0;
+   font-size:2em;
+  border: 3px solid $tertiary-color;
+  margin: .5em;
+  padding-top: .25em;
+  padding-left:.075em;
+  
+}
+#social-links {
+  position:absolute;
+  display:inline;
+}
+#home #social-links {
+  top: 1.25em;
+  right: 2.5em;
+}
+#social-links li {
+  display:inline-block;
+}
+#home #social-links li {
+  padding: 1em .35em;
+  
+}
+#home #social-links  i {
+  color: #fff;
+}
+#contact #social-links {
+  left: 5%;
 }
 
-.social-media-links{
-    font-family: $sans-font;
-    
+#contact #social-links li {
+ padding: .35em .65em; 
 }
-.card .card-reveal, .card {
-}
-.card-image {
-    height: 12em;
-    border-radius: 10px 10px 0 0;
-}
-#contact_image {
-    height: auto;
-
+#contact #social-links i {
+  color: $dark;
+  
 }
 
-article p {
-    
-    font-style: italic;
-    font-weight: 400;
+section {
+  background:$light;
+  color: $dark;
+  font-family: $primary-font;
+  font-weight:300;
+  min-height: 85vh;
+  height: auto;
+  
+}
+
+
+#home h6 {
+  padding-top:25vh;
+  margin-left: 22.5%;
+}
+#home p {
+  max-width:40em;
+}
+.btn-action {
+  background:$secondary-color;
+  color: $light;
+}
+.btn-outline-secondary {
+  color:$light;
+  border-color: $light;
+  
+}
+.fa-hand-o-down {
+  text-align:center;
+  margin: 0 47.5vw ;
+  color: $tertiary-color;
+}
+
+#home .fa-hand-o-down {
+  padding-top:15vh;
+}
+ul {
+  list-style:none;
+}
+#projects ul {
+   margin-bottom: 1.5em;
+   display:inline;
+}
+#projects li {
+  display:inline-flex;
+}
+#projects li .card {
+  margin-bottom: .65em;
+  height: 35em;
+  width: 22.5em;
+}
+#projects a:hover {
+  text-decoration: none;
+  color: $light;
+}
+.card-image-top {
+ width:100%;
+}
+.card-block {
+  position: absolute;
+  bottom: 0;
+}
+span.title{
+  display: inline-block;
+  color: $light;
+  font-weight:500;
+  width:7em;
+  padding:0;
+  margin:0;
+}
+#contact {
+  padding-top:2em;
+  background: $quinary-color;
 }
 form {
-    margin-bottom:  1em;
-    padding-bottom: 1em;
-    border-radius: 20px;
-}
-textarea#textarea1 {
-    border: 1px solid #808080;
-    border-radius: 20px;
-}
-form .row {
- padding-bottom: 0 1em 1em 1em;
-}
-form .btn {
-    margin-bottom:2.2em;
-    border-radius: 5px;
-}
-.page-footer {
-    background:none !important;
-}
-.footer_item_header {
-    color: $primary-color;
-    font-weight: 500;
-    letter-spacing: .015em;
-}
-.footer-copyright{
-    color: $primary-color;
-    font-size: 1rem;
-}
-
-/*
- * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
- */
-
-@media only screen and (min-device-width: 320px) {
+  color: $dark;
+  font-weight:400;
+  padding-bottom:2em;
   
-  #home {
-    height: 35em;
-    background: #d8e0de;
-    background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
-    background: -webkit-linear-gradient(top, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
-    background: linear-gradient(to bottom, #d8e0de 0%, #aebfbc 9%, #99afab 18%, #8ea6a2 32%, #829d98 39%, #4e5c5a 66%, #0e0e0e 91%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); }
-.adujustable {
-  margin-top:2.8em;
 }
-.brandmonkey {
-  margin-top: 1.15em;
+label {
+  font-family: 'Work Sans';
+  font-style: italic;
+  
 }
-  .brand-logo {
-    font-family: "Yellowtail", cursive;
-    color: orange;
-    position: relative; }
-  .brand-logo img {
-    height: 8em;
-    width: 8em;
-    border-radius: 50%;
-    border: 4px solid orange;
-    background: #fff; }
-  .brand-logo span {
-    position: absolute;
-    font-size: 2.35em;
-    padding: .75em .5em .5em;
-    text-shadow: 2px 2px 2px red; }
-    .span-left {
-    right: 100%;
+textarea {
+  overflow:hidden;
 }
-  #nav-mobile {
-    margin-top: 8em;
-    display: inline; }
-  #nav-mobile li {
-    display: inline-block;
-    float: none !important; }
-  .social-media-links {
-    position: absolute;
-    top: 12em;
-   // width: 33.33333333%;
-    display: block;
-    right: 33.3333333%;
-    left: 33.3333333%; }
-  .social-media-links li {
-    height: 3em;
-    padding-top: .35em;
-    margin: 1em auto; }
-  .social-media-links li a {
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    padding: .5em; }
-  .center {
-    float: none !important; }
-  #portfolio-list {
-    display: inline;
-    list-style: none;
-    float: none !important; }
-  #portfolio-list li {
-    display: inline-block;
-    margin: .1em 16.66666%; }
-  li .card {
-    width: 85%; 
-    border-radius: 10px;
-  }
-  .page-footer {
-    font-size: 1.25em; } }
 
-/* Smartphones (landscape) ----------- */
-/* Smartphones (portrait) ----------- */
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) {
-  /* Styles */
-  #nav-mobile {
-    display: inline;
-    text-align: center; }
-  #home {
-    height: 40em; }
-    .brandmonkey {
-  margin-top: 0;
+//tooltips
+
+
+.fa:hover {
+  color: $tertiary-color;
+
 }
-  .brand-logo {
-    top: 2.2em !important; }
-    .brand-logo span {
-      margin: 0 .5em;
-    }
-  .brand-logo img {
-    border: 6px solid orange; }
-    #ellipse{
-        margin: 0 auto;
-        width: 35em;
-        height: 20em;
-          background-color: #212121;
-              -moz-border-radius: 0 0 40% 40%;
-    -webkit-border-radius: 0 0 40% 40%;
-    border-radius: 0 0 40% 40%;
-    }
-  .span-left {
-    right: 2.9em;
-    }
-  .span-right{
-    left: 2.9em;
-    }
-  .social-media-links {
-    position: absolute;
-    top: 20em;
-    width: 50%;
-    display: block;
-    right: 25%;
-    left: 25%; }
-  .social-media-links li {
-    display: block;
-    text-align: center; }
-  .brand-logo img {
-    margin-top: 1.15em;
-    height: 13.2em;
-    width: 13.2em;
-    border-radius: 50%; }
-  .brand-logo span {
-    font-size: 3.6em; 
-    bottom: 1.5em;
-  }
-  }
+.fa:hover:after {
+    position:relative;
+  color: $tertiary-color;
+    font-family: $primary-font;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 80%;
+}
+#home .fa-hand-o-down:hover:after {
+  content: 'See My Work...';
+  position:relative;
+  color: $tertiary-color;
+  display:inline-block;
+  width: 12em;
+  top: 1.4em;
+  right: 6em;
 
-/* iPads (landscape) ----------- */
-/* iPads (portrait) ----------- */
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 960px) {
-  /* Styles */
-  .social-media-links {
-    display: inline-flex;
-    top: 24.5em;
-    position: absolute;
-    left: 16.6667%; }
-  .social-media-links li {
-    display: inline-block;
-    margin: 0 3em 2em;
-    width: 13em;
-    text-align: center; }
-  .social-media-links li a {
-    width: 14.5em !important; }
-  .about_text {
-    margin: 0 2em; }
-  #portfolio-list {
-    margin-left: 8.33333%; }
-  #portfolio-list li {
-    margin: 0; }
-  .center h2 {
-    color: #000;
-    font-weight: 900;
-    padding: 0px 10px;
-    text-transform: uppercase; } }
+}
+#biography .fa-hand-o-down:hover:after {
+  content: 'See My Work...';
+  position:relative;
+  color: $tertiary-color;
+  display:inline-block;
+  width: 12em;
+    top:1.4em;
+    right:6em;
+}
 
-/* Large screens ----------- */
-/* iPhone 4 ----------- */
+#projects .fa-hand-o-down:hover:after {
+  content: 'Send Me a Message...';
+  position:relative;
+  color: $tertiary-color;
+  display:inline-block;
+  width: 12em;
+  top:1.4em;
+  right:6em;
+
+}

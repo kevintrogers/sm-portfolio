@@ -1,0 +1,275 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+                          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+ <!-- Compiled and minified CSS -->
+
+
+<link rel="icon" type="image/ico" href="images/favicon.ico">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">  <script src="app.js"></script>
+
+
+
+  <link rel="styleSheet" href="css/style.css" type="text/css" media="screen">
+  <!--<link rel="styleSheet" href="css/pic.css" type="text/css" media="screen">-->
+    <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+
+    </head>
+
+    <body ng-app="app" ng-controller="ProfileController as main" class='cyan lighten-5'>
+        <nav class="grey darken-4 flow-text">
+          
+    <div class="nav-wrapper center">
+      
+        <ul id="nav-mobile">
+          
+        <li ng-repeat="page in main.pages">
+          <a class='hide-on-small-only' href='{{page.link}}'>
+            <span></span> {{page.title}}</span>
+            </a>
+             
+            </li>
+          <li><a href="#" class="center dropdown-button" data-activates='dropdown-menu'><i class="large material-icons hide-on-med-and-up">view_headline</i>
+             </a></li>
+      </ul>
+    </div>
+
+  </nav>
+      <section id='home'>
+
+    <div class='row center'>
+      <div id='ellipse'>
+        <div class='adjustable brandmonkey'>
+         <a href="#" class="nav_logo brand-logo center">
+           <span class='span-left'>Spicy</span>
+           <img class='center' src="spicymonkey_logo.svg" onerror="this.src='spicymonkey_logo.png'" alt="Spicy Monkey Media Logo">
+           <span class='span-right'>Monkey</span></a>
+         </div>
+       </div>
+     </div>
+         <ul id='dropdown-menu' class='dropdown-content hide-on-med-and-up'>
+    <li ng-repeat="page in main.pages">
+      <a href='{{page.link}}'>{{page.title}}</a>
+    </li>
+
+            
+     </ul>
+       </div
+       <div class='row'>
+      <ul class="col social-media-links center s12 l10 offset-l1">
+
+        <li ng-repeat="media in main.social_media" class="col s6 l1 offset-l1 center" >
+
+            <a class="" href="{{media.link}}"><span class="flow-text">{{media.title}}</span></a>
+
+          </li>
+    <body ng-app="app" ng-controller="MainController as main">
+       
+
+
+
+      </section>
+      <div class="container">
+    <section id='about'>
+       <div class="center"><h2>About</h2></div>
+
+        <div id="contact_image">
+	<div class='box circle'>
+		<div class='head'>
+
+				<div class='hair-left'></div>
+				<div class='hair-top'></div>
+				<div class='hair-right'></div>
+				<div class='ear-left'></div>
+				<div class='ear-right'></div>
+				<div class='glasses frame-left'></div>
+				<div class='glasses lens-left'></div>
+					<div class='eye eye-left'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
+					<div class='glasses connector'></div>
+					
+				
+				
+				
+				
+					<div class='eye eye-right'><div class='brow'></div><div class='iris'><div class='pupil'></div></div></div>
+				<div class='glasses lens-right'></div>
+				<div class='glasses frame-right'></div>
+				<div class='nose'></div>
+				<div class='upper-lip'></div>
+				<div class='teeth'></div>
+				<div class='lower-lip'>
+					
+			</div>
+			<div class='neck'>
+			
+				
+			</div>
+		</div>
+	</div>
+  
+<div class='row'>
+      <article class='about_text flow-text col s10 offset-s1 m8 offset-m2'>
+       <p> Spicy Monkey Media is a digital media agency specializing in creating an online presence for small and medium-sized businesses using Word Press, Angular JS, and Meteor JS. We create custom sites based on the needs of a business.
+</p><p>
+Our services include: SEO, graphic design, and website and application development.
+</p>
+<p>
+If you are interested in discussing how Spicy Monkey Media can help your business boost it's online presence, send us a message and we'll be in touch.
+ </p>       
+
+      </article>
+      </div>
+      </div>
+      </div>
+      </section>
+      <section id='portfolio' class='grey lighten-3'>
+      <div class="center"><h2>Portfolio</h2></div>
+      <div class='row'>
+      <div class='col s12 l10 offset-l1 center'>
+      <ul id="portfolio-list center" >
+        <li ng-repeat="project in main.projects" class= 'col s10 offset-s1 l4'>  
+        <div class="card hoverable">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src='{{ project.screenshot }}' >
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">{{project.title}}<i class="material-icons right">more_vert</i></span>
+      <p><a href="{{ project.link }}">See Project</a></p>
+
+  
+
+    
+    <div class="card-reveal">
+
+      <span class="card-title black-text ">{{ projects.title }}<i class="material-icons right">close</i></span>
+      <p class="technology"><strong>Description:</strong><br><span>{{ project.description }}</span></p>
+      <p class="technology"><strong>Technologies Used:</strong><br><span>{{ project.technology }}</span></p>
+    </div>
+  </div>
+  
+  </li>
+      </ul>
+      </div>
+      </div>
+      </section>
+
+<div class="row">
+        <div class="center">
+          <h2>Contact</h2></div>
+        </div>
+      <section id='contact'>
+
+        
+        
+          <div class="row">
+    <form class="col s10 offset-s1 l10 offset-l1 hoverable teal lighten-4"   action="mailto:kevin_t_rogers@hotmail.com, kevin@spicymonkeymedia.com"
+  method="POST"
+  enctype="multipart/form-data"
+  name="ContacttForm">
+
+
+      </div>
+      
+      
+    </div>
+    
+    
+  </div>
+  </section>
+  <section id='contact'>
+    
+
+<!--<div class='box'>-->
+<!--    <a id='box-btn' ><div class='box-top'><span class='big-action'>Click Here to Send Me a Pizza</span><br>-->
+<!--    <span class='small-action'>(Or a Message...)</span></div></a>-->
+<!--    <div class='box-message'></div>-->
+<!--    <div class='box-outside'></div>-->
+<!--    <div class='box-inside'></div>-->
+<!--    <div class='box-back'></div>-->
+<!--    <div class='box-bottom'>-->
+<!--    <div class='box-front'><span class='pizza-title'>Spicy Monkey Pizza</span><div class='pizza-logo'></div></div>-->
+       
+<!--    </div>-->
+<div class='box-form'>
+<div class="row">
+    <form class="col s12 m10 offset-m1">
+
+        <div class="input-field col s10 offset-s1 l4 offset-l1">
+
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div>
+
+        
+
+        <div class="input-field col s10 offset-s1 l4 offset-l2">
+
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+      </div>
+
+
+
+            <div class="row">
+        <div class="input-field col s10 offset-s1 l4 offset-l1">
+
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" class="validate">
+          <label for="email" data-error="wrong" data-success="right">Email</label>
+        </div>
+        </div>
+
+      <div class="row">
+        <div class="input-field col s10 offset-s1">
+          <i class="material-icons prefix">message</i>
+          <textarea id="textarea1" rows='1' class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
+
+      </div>
+      
+
+
+      <button class="col offset-s4 s4 offset-m5 m2 btn btn-flat blue accent-2"  type="submit" name="action">Send</button>
+
+    </form>
+
+</div>
+</div>
+      </section>
+      
+
+
+  
+    </body>
+      <footer class="@ flow-text">
+
+<div class="footer-copyright col s12 grey darken-4"> 
+      <div class="col s5 offset-s1 m4 offset-m2">&copy; 2017 <a href="http://spicymonkeymedia.com/#home"> Spicy Monkey Media.</a>
+      </div>
+
+  </footer>
+
+
+  <footer>
+</footer>
+  </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+ 
+
+
+    
+          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="profile.ctrl.js"></script>
+    <script src="script.js"></script>
+ 
+  </html>
