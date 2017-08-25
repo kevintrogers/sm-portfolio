@@ -1,6 +1,7 @@
 var socialLinks = new Vue({
   el: '#social-links',
   data: {
+
       social: [
       
         {
@@ -76,4 +77,13 @@ var projects = new Vue({
           
         ]
   }
+});
+
+var contact = new Vue({
+    el: '#contact',
+    data: {
+      telephoneCheck: false,
+      emailCheck: false,
+    }
 })
+

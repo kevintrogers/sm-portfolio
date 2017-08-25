@@ -140,23 +140,23 @@
                   <input type="text" class="form-control" id="contact-form">
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" value="phone">
+                <input class="form-check-input" type="checkbox" v-model="emailCheck" v-bind='emailCheck'>
                 I prefer to be contacted by phone
               </label>
             </div>
             <div class="form-check ">
               <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" value="email" >
+                <input class="form-check-input" type="checkbox"  v-model="telephoneCheck" v-bind='telephoneCheck'>
                 I prefer to be contacted by email
               </label>
           </div>
             
-            <div class='form-group'>
+            <div class='form-group' v-if='emailCheck'>
                   <label for="contact-form">Email</label>
                   <input type="email" class="form-control" id="contact-form">
             </div>
             
-            <div class='form-group'>
+            <div class='form-group' v-if='telephoneCheck'>
                   <label for="contact-form">Telephone Number</label>
                   <input type="telephone" class="form-control" id="contact-form">
             </div>
