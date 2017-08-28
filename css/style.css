@@ -162,31 +162,20 @@ textarea {
   font-family: "Work Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 80%; }
+  font-size: 80%;
+  z-index: 1;
+  color: #FFE000;
+  display: inline-block;
+  width: 12em;
+  top: 1.4em;
+  right: 6em; }
 
 #home .fa-hand-o-down:hover:after {
   content: 'See My Work...';
-  position: relative;
-  color: #FFE000;
-  display: inline-block;
-  width: 12em;
-  top: 1.4em;
-  right: 6em; }
+  position: relative; }
 
 #biography .fa-hand-o-down:hover:after {
-  content: 'See My Work...';
-  position: relative;
-  color: #FFE000;
-  display: inline-block;
-  width: 12em;
-  top: 1.4em;
-  right: 6em; }
+  content: 'See My Work...'; }
 
 #projects .fa-hand-o-down:hover:after {
-  content: 'Send Me a Message...';
-  position: relative;
-  color: #FFE000;
-  display: inline-block;
-  width: 12em;
-  top: 1.4em;
-  right: 6em; }
+  content: 'Send Me a Message...'; }

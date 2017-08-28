@@ -195,34 +195,26 @@ textarea {
   font-style: italic;
   font-weight: 300;
   font-size: 80%;
-}
-#home .fa-hand-o-down:hover:after {
-  content: 'See My Work...';
-  position:relative;
-  color: $tertiary-color;
+  z-index:1;
+    color: $tertiary-color;
   display:inline-block;
   width: 12em;
   top: 1.4em;
   right: 6em;
+}
+#home .fa-hand-o-down:hover:after {
+  content: 'See My Work...';
+  position:relative;
+
 
 }
 #biography .fa-hand-o-down:hover:after {
   content: 'See My Work...';
-  position:relative;
-  color: $tertiary-color;
-  display:inline-block;
-  width: 12em;
-    top:1.4em;
-    right:6em;
+
 }
 
 #projects .fa-hand-o-down:hover:after {
   content: 'Send Me a Message...';
-  position:relative;
-  color: $tertiary-color;
-  display:inline-block;
-  width: 12em;
-  top:1.4em;
-  right:6em;
+
 
 }
