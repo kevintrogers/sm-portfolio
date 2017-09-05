@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400i,500');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400i,500|Yellowtail|Fontdiner+Swanky|Pacifico');
 
 $primary-color:#FF7C00;
 $secondary-color:#FF8919;
@@ -47,14 +47,15 @@ h6{
 }
 #personal-logo {
   position:absolute;
-  color: $primary-color;
+  color: $tertiary-color;
+  font-family: Work Sans;
   font-variant: small-caps;
   font-weight:500;
   height:1.45em;
   width:1.45em;
   padding: 0;
    font-size:2em;
-  border: 3px solid $tertiary-color;
+  border: 2px solid $primary-color;
   margin: .8em;
   padding-top: .25em;
   padding-left:.075em;
