@@ -40,6 +40,19 @@ var projects = new Vue({
     projects: [ 
 
         {
+            title:'Meteor To Do List',
+            link:'hhttps://personal-task-list.herokuapp.com/',
+            screenshot:'img/todo-list.png',
+
+        },
+        {
+            title:'Recipe Box',
+            link:'https://shopping-list-builder.herokuapp.com/menu',
+            screenshot:'img/recipe.png',
+
+        },
+
+        {
             title:'Team First Basketball',
             link:'http://teamfirstbasketball.com/',
             screenshot:'img/team-first-screenshot.PNG',
