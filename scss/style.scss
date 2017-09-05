@@ -188,7 +188,7 @@ textarea {
   color: $tertiary-color;
 
 }
-.fa:hover:after {
+.fa:hover:before {
     position:relative;
   color: $tertiary-color;
     font-family: $primary-font;
@@ -199,22 +199,20 @@ textarea {
     color: $tertiary-color;
   display:inline-block;
   width: 12em;
-  top: 1.4em;
+  bottom: 1.8em;
   right: 6em;
 }
-#home .fa-hand-o-down:hover:after {
+#home .fa-hand-o-down:hover:before {
   content: 'See My Work...';
   position:relative;
 
 
 }
-#biography .fa-hand-o-down:hover:after {
+#biography .fa-hand-o-down:hover:before {
   content: 'See My Work...';
-
 }
 
-#projects .fa-hand-o-down:hover:after {
+#projects .fa-hand-o-down:hover:before {
   content: 'Send Me a Message...';
-
 
 }
