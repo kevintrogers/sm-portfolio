@@ -43,22 +43,7 @@ h6{
   color: $primary-color;
   z-index:1;
 }
-#personal-logo {
-  position:absolute;
-  color: $tertiary-color;
-  font-family: Work Sans;
-  font-variant: small-caps;
-  font-weight:500;
-  height:1.45em;
-  width:1.45em;
-  padding: 0;
-  font-size:2em;
-  border: 2px solid $primary-color;
-  margin: .8em;
-  padding-top: .25em;
-  padding-left:.075em;
-  
-}
+
 #social-links {
   position:absolute;
   display:inline;

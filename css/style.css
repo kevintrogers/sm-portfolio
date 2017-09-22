@@ -31,21 +31,6 @@ h6 {
   color: #FF7C00;
   z-index: 1; }
 
-#personal-logo {
-  position: absolute;
-  color: #FFE000;
-  font-family: Work Sans;
-  font-variant: small-caps;
-  font-weight: 500;
-  height: 1.45em;
-  width: 1.45em;
-  padding: 0;
-  font-size: 2em;
-  border: 2px solid #FF7C00;
-  margin: .8em;
-  padding-top: .25em;
-  padding-left: .075em; }
-
 #social-links {
   position: absolute;
   display: inline; }
